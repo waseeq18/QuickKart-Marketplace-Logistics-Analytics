@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickKart Analytics Dashboard</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg:       #0f1117;
+    --surface:  #161b27;
+    --surface2: #1e2535;
+    --border:   #262d3f;
+    --border2:  #2e3852;
+    --text:     #e8eaf0;
+    --muted:    #7b8499;
+    --accent:   #4f8ef7;
+    --accent2:  #7c5ef5;
+    --green:    #34d399;
+    --amber:    #fbbf24;
+    --red:      #f87171;
+    --coral:    #fb7185;
+    --teal:     #2dd4bf;
+    --font:     'DM Sans', sans-serif;
+    --mono:     'DM Mono', monospace;
+  }
+
+  html { font-family: var(--font); background: var(--bg); color: var(--text); font-size: 14px; }
+  body { min-height: 100vh; }
+
+  /* ── LAYOUT ── */
+  .shell { display: flex; min-height: 100vh; }
+
+  /* ── SIDEBAR ── */
+  .sidebar {
+    width: 240px; flex-shrink: 0;
+    background: var(--surface);
+    border-right: 1px solid var(--border);
+    padding: 24px 16px;
+    position: sticky; top: 0; height: 100vh; overflow-y: auto;
+    display: flex; flex-direction: column; gap: 28px;
+  }
+  .logo { display: flex; align-items: center; gap: 8px; padding: 0 4px; }
+  .logo-mark {
+    width: 30px; height: 30px; border-radius: 8px;
+    background: linear-gradient(135deg, var(--accent), var(--accent2));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; font-weight: 600; color: #fff; letter-spacing: -.5px;
+  }
+  .logo-text { font-size: 15px; font-weight: 600; letter-spacing: -.3px; }
+  .logo-sub  { font-size: 10px; color: var(--muted); letter-spacing: .5px; text-transform: uppercase; }
+
+  .filter-section { display: flex; flex-direction: column; gap: 16px; }
+  .filter-label {
+    font-size: 10px; font-weight: 500; color: var(--muted);
+    text-transform: uppercase; letter-spacing: .8px;
+    padding: 0 4px; margin-bottom: -8px;
+  }
+
+  .filter-group { display: flex; flex-direction: column; gap: 4px; }
+  .filter-group label { font-size: 11px; color: var(--muted); padding: 0 4px; }
+  select, .multi-select {
+    background: var(--surface2);
+    border: 1px solid var(--border2);
+    border-radius: 8px; color: var(--text);
+    font-family: var(--font); font-size: 12px;
+    padding: 7px 10px; width: 100%;
+    outline: none; cursor: pointer;
+  }
+  select:focus { border-color: var(--accent); }
+
+  .checkgroup { display: flex; flex-direction: column; gap: 3px; max-height: 130px; overflow-y: auto; padding: 4px 0; }
+  .checkgroup::-webkit-scrollbar { width: 3px; }
+  .checkgroup::-webkit-scrollbar-track { background: transparent; }
+  .checkgroup::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+  .check-item {
+    display: flex; align-items: center; gap: 7px;
+    padding: 4px 6px; border-radius: 6px; cursor: pointer;
+    transition: background .15s;
+  }
+  .check-item:hover { background: var(--surface2); }
+  .check-item input { accent-color: var(--accent); width: 13px; height: 13px; cursor: pointer; }
+  .check-item span { font-size: 12px; color: var(--text); }
+
+  .range-wrap { padding: 0 4px; }
+  .range-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .range-row span { font-size: 11px; color: var(--accent); font-family: var(--mono); }
+  input[type=range] {
+    width: 100%; accent-color: var(--accent);
+    height: 3px; cursor: pointer;
+  }
+
+  .reset-btn {
+    background: none; border: 1px solid var(--border2);
+    border-radius: 8px; color: var(--muted);
+    font-family: var(--font); font-size: 12px;
+    padding: 8px 12px; cursor: pointer; width: 100%;
+    transition: all .15s; margin-top: auto;
+  }
+  .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+  /* ── MAIN ── */
+  .main { flex: 1; padding: 28px 28px 40px; overflow-x: hidden; }
+
+  .topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; }
+  .page-title { font-size: 20px; font-weight: 600; letter-spacing: -.4px; }
+  .page-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+  .timestamp { font-size: 11px; color: var(--muted); font-family: var(--mono); }
+
+  /* ── KPI CARDS ── */
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+  .kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px; padding: 18px 20px;
+    position: relative; overflow: hidden;
+    transition: border-color .2s;
+  }
+  .kpi:hover { border-color: var(--border2); }
+  .kpi-accent { position: absolute; top: 0; left: 0; right: 0; height: 2px; }
+  .kpi-label { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .6px; margin-bottom: 10px; }
+  .kpi-value { font-size: 26px; font-weight: 600; letter-spacing: -.8px; line-height: 1; }
+  .kpi-sub { font-size: 11px; color: var(--muted); margin-top: 6px; }
+  .kpi-badge {
+    display: inline-flex; align-items: center; gap: 3px;
+    font-size: 10px; padding: 2px 7px; border-radius: 20px;
+    font-weight: 500; margin-top: 6px;
+  }
+  .badge-green { background: rgba(52,211,153,.12); color: var(--green); }
+  .badge-red   { background: rgba(248,113,113,.12); color: var(--red);   }
+  .badge-amber { background: rgba(251,191,36,.12);  color: var(--amber); }
+  .badge-blue  { background: rgba(79,142,247,.12);  color: var(--accent);}
+
+  /* ── CHART GRID ── */
+  .chart-row    { display: grid; gap: 16px; margin-bottom: 16px; }
+  .row-3-1      { grid-template-columns: 3fr 1.2fr; }
+  .row-2        { grid-template-columns: 1fr 1fr; }
+  .row-full     { grid-template-columns: 1fr; }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px; padding: 20px 22px;
+  }
+  .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 18px; }
+  .card-title  { font-size: 13px; font-weight: 500; letter-spacing: -.2px; }
+  .card-sub    { font-size: 11px; color: var(--muted); margin-top: 2px; }
+  .card-tag {
+    font-size: 10px; padding: 2px 8px; border-radius: 20px;
+    background: var(--surface2); color: var(--muted); border: 1px solid var(--border2);
+  }
+  .chart-wrap  { position: relative; }
+
+  /* ── HEATMAP ── */
+  .heatmap-scroll { overflow-x: auto; }
+  .heatmap-scroll::-webkit-scrollbar { height: 3px; }
+  .heatmap-scroll::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+  table.heatmap { border-collapse: collapse; width: 100%; font-size: 11px; }
+  table.heatmap th {
+    padding: 5px 8px; color: var(--muted); font-weight: 400;
+    text-align: center; white-space: nowrap;
+  }
+  table.heatmap th.row-head { text-align: left; font-weight: 500; color: var(--text); min-width: 90px; }
+  table.heatmap td {
+    padding: 6px 8px; text-align: center;
+    border-radius: 6px; font-family: var(--mono);
+    font-size: 11px; transition: opacity .2s;
+    cursor: default;
+  }
+  table.heatmap td:hover { outline: 1px solid rgba(255,255,255,.25); }
+
+  /* ── LEGEND ── */
+  .legend { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+  .leg-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
+  .leg-dot  { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* ── TOP TABLE ── */
+  .mini-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .mini-table th { color: var(--muted); font-weight: 400; font-size: 10px; text-transform: uppercase; letter-spacing: .5px; padding: 0 0 10px; border-bottom: 1px solid var(--border); }
+  .mini-table th:last-child, .mini-table td:last-child { text-align: right; }
+  .mini-table td { padding: 8px 0; border-bottom: 1px solid var(--border); color: var(--text); }
+  .mini-table tr:last-child td { border-bottom: none; }
+  .bar-cell { display: flex; align-items: center; gap: 8px; }
+  .bar-bg { flex: 1; background: var(--surface2); border-radius: 3px; height: 5px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+
+  /* ── INSIGHTS PANEL ── */
+  .insights { display: flex; flex-direction: column; gap: 8px; }
+  .insight {
+    background: var(--surface2); border-radius: 10px;
+    padding: 11px 14px; border-left: 2px solid transparent;
+    font-size: 12px; line-height: 1.55; color: var(--muted);
+  }
+  .insight strong { color: var(--text); font-weight: 500; }
+  .insight-red    { border-left-color: var(--red); }
+  .insight-green  { border-left-color: var(--green); }
+  .insight-amber  { border-left-color: var(--amber); }
+  .insight-blue   { border-left-color: var(--accent); }
+
+  /* ── SCROLLBAR ── */
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="shell">
+
+<!-- ════════════════════════════════════ SIDEBAR ════════════════════════════════════ -->
+<aside class="sidebar">
+  <div class="logo">
+    <div class="logo-mark">QK</div>
+    <div>
+      <div class="logo-text">QuickKart</div>
+      <div class="logo-sub">Analytics</div>
+    </div>
+  </div>
+
+  <div class="filter-section">
+    <div class="filter-label">Filters</div>
+
+    <div class="filter-group">
+      <label>Date range</label>
+      <select id="f-month-from">
+        <option value="">From month…</option>
+      </select>
+      <select id="f-month-to" style="margin-top:4px">
+        <option value="">To month…</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label>City</label>
+      <div class="checkgroup" id="city-checks"></div>
+    </div>
+
+    <div class="filter-group">
+      <label>Category</label>
+      <div class="checkgroup" id="cat-checks"></div>
+    </div>
+
+    <div class="filter-group">
+      <label>Carrier</label>
+      <div class="checkgroup" id="carrier-checks"></div>
+    </div>
+  </div>
+
+  <button class="reset-btn" onclick="resetFilters()">↺ Reset all filters</button>
+</aside>
+
+<!-- ════════════════════════════════════ MAIN ════════════════════════════════════ -->
+<main class="main">
+  <div class="topbar">
+    <div>
+      <div class="page-title">Marketplace & Logistics</div>
+      <div class="page-sub">Jul 2024 – Dec 2025 · QuickKart Analytics Dashboard</div>
+    </div>
+    <div class="timestamp" id="filter-status">All data · No filters applied</div>
+  </div>
+
+  <!-- KPI row -->
+  <div class="kpi-grid">
+    <div class="kpi">
+      <div class="kpi-accent" style="background:linear-gradient(90deg,var(--accent),var(--accent2))"></div>
+      <div class="kpi-label">Total GMV</div>
+      <div class="kpi-value" id="kpi-gmv">₹339.2 Cr</div>
+      <div class="kpi-badge badge-blue" id="kpi-gmv-sub">100,000 orders</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-accent" style="background:linear-gradient(90deg,var(--green),var(--teal))"></div>
+      <div class="kpi-label">Repeat Purchase Rate</div>
+      <div class="kpi-value" id="kpi-repeat">71.8%</div>
+      <div class="kpi-badge badge-green" id="kpi-repeat-sub">of delivered customers</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-accent" style="background:linear-gradient(90deg,var(--red),var(--coral))"></div>
+      <div class="kpi-label">Delayed Order Rate</div>
+      <div class="kpi-value" id="kpi-delay">33.8%</div>
+      <div class="kpi-badge badge-red" id="kpi-delay-sub">across all carriers</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-accent" style="background:linear-gradient(90deg,var(--amber),var(--coral))"></div>
+      <div class="kpi-label">Unique Customers</div>
+      <div class="kpi-value" id="kpi-custs">88.7K</div>
+      <div class="kpi-badge badge-amber" id="kpi-custs-sub">active buyers</div>
+    </div>
+  </div>
+
+  <!-- Row 1: GMV trend + category donut -->
+  <div class="chart-row row-3-1">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Monthly GMV trend</div><div class="card-sub">Total revenue by month</div></div>
+        <span class="card-tag" id="gmv-tag">18 months</span>
+      </div>
+      <div class="chart-wrap" style="height:220px"><canvas id="ch-gmv"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">GMV by category</div><div class="card-sub">Revenue share</div></div>
+      </div>
+      <div class="chart-wrap" style="height:180px"><canvas id="ch-cat"></canvas></div>
+      <div class="legend" id="cat-legend" style="margin-top:12px"></div>
+    </div>
+  </div>
+
+  <!-- Row 2: delay carrier + delay city -->
+  <div class="chart-row row-2">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Delay rate by carrier</div><div class="card-sub">% of orders delayed</div></div>
+      </div>
+      <div class="chart-wrap" style="height:200px"><canvas id="ch-carrier"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Delay rate by city</div><div class="card-sub">Destination city performance</div></div>
+      </div>
+      <div class="chart-wrap" style="height:200px"><canvas id="ch-city"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Row 3: GMV by city bar + repeat rate line -->
+  <div class="chart-row row-2">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">GMV by city</div><div class="card-sub">Total revenue per destination</div></div>
+      </div>
+      <div class="chart-wrap" style="height:220px"><canvas id="ch-gmvcity"></canvas></div>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Repeat purchase rate</div><div class="card-sub">Monthly loyalty trend</div></div>
+      </div>
+      <div class="chart-wrap" style="height:220px"><canvas id="ch-repeat"></canvas></div>
+    </div>
+  </div>
+
+  <!-- Row 4: Heatmap full width -->
+  <div class="chart-row row-full">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Carrier × City delay heatmap</div><div class="card-sub">Delay rate % per lane — darker red = worse performance</div></div>
+        <div class="legend">
+          <div class="leg-item"><div class="leg-dot" style="background:#1e4d2b"></div>Low &lt;20%</div>
+          <div class="leg-item"><div class="leg-dot" style="background:#b45309"></div>Medium 20–40%</div>
+          <div class="leg-item"><div class="leg-dot" style="background:#991b1b"></div>Critical &gt;40%</div>
+        </div>
+      </div>
+      <div class="heatmap-scroll">
+        <table class="heatmap" id="heatmap-table"></table>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 5: top cities table + key insights -->
+  <div class="chart-row row-2">
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">City GMV breakdown</div><div class="card-sub">Revenue vs delay by market</div></div>
+      </div>
+      <table class="mini-table" id="city-table"></table>
+    </div>
+    <div class="card">
+      <div class="card-header">
+        <div><div class="card-title">Key insights</div><div class="card-sub">Findings from current filters</div></div>
+      </div>
+      <div class="insights">
+        <div class="insight insight-red"><strong>Delhivery critical lanes</strong> — Jaipur (86.5%) and Lucknow (87.6%) delay rates are 2.6× the network average. Immediate rerouting recommended.</div>
+        <div class="insight insight-red"><strong>Ekart Kolkata</strong> — 81.9% delay rate on this lane with significant GMV volume. Structural carrier issue, not a one-off.</div>
+        <div class="insight insight-green"><strong>InHouse benchmark</strong> — 13.2% delay rate vs 33.8% network average. Expanding InHouse coverage to Jaipur/Lucknow should be priority.</div>
+        <div class="insight insight-amber"><strong>Electronics concentration risk</strong> — 75.6% of GMV in a single category. Any delay spike in Electronics disproportionately impacts revenue.</div>
+        <div class="insight insight-blue"><strong>Repeat rate improving</strong> — Rose from 10.3% in Jul 2024 to 82.5% by Dec 2025 as the customer base matures.</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// RAW DATA
+// ═══════════════════════════════════════════════════════
+const GMV_RAW = [{"month":"2024-07","city":"Ahmedabad","category":"Books","GMV":110449,"orders":50},{"month":"2024-07","city":"Ahmedabad","category":"Electronics","GMV":6231837,"orders":87},{"month":"2024-07","city":"Ahmedabad","category":"Fashion","GMV":672491,"orders":101},{"month":"2024-07","city":"Ahmedabad","category":"Grocery","GMV":55430,"orders":72},{"month":"2024-07","city":"Ahmedabad","category":"Home & Kitchen","GMV":1132282,"orders":122},{"month":"2024-07","city":"Bangalore","category":"Books","GMV":178424,"orders":80},{"month":"2024-07","city":"Bangalore","category":"Electronics","GMV":18688893,"orders":330},{"month":"2024-07","city":"Bangalore","category":"Fashion","GMV":880266,"orders":128},{"month":"2024-07","city":"Bangalore","category":"Grocery","GMV":72699,"orders":93},{"month":"2024-07","city":"Bangalore","category":"Home & Kitchen","GMV":2222165,"orders":228},{"month":"2024-07","city":"Chandigarh","category":"Books","GMV":49396,"orders":22},{"month":"2024-07","city":"Chandigarh","category":"Electronics","GMV":3476437,"orders":60},{"month":"2024-07","city":"Chandigarh","category":"Fashion","GMV":393527,"orders":59},{"month":"2024-07","city":"Chandigarh","category":"Grocery","GMV":31621,"orders":41},{"month":"2024-07","city":"Chandigarh","category":"Home & Kitchen","GMV":531553,"orders":58},{"month":"2024-07","city":"Chennai","category":"Books","GMV":121413,"orders":55},{"month":"2024-07","city":"Chennai","category":"Electronics","GMV":11753162,"orders":207},{"month":"2024-07","city":"Chennai","category":"Fashion","GMV":632699,"orders":92},{"month":"2024-07","city":"Chennai","category":"Grocery","GMV":47285,"orders":62},{"month":"2024-07","city":"Chennai","category":"Home & Kitchen","GMV":1659697,"orders":181},{"month":"2024-07","city":"Delhi","category":"Books","GMV":217052,"orders":97},{"month":"2024-07","city":"Delhi","category":"Electronics","GMV":20580823,"orders":361},{"month":"2024-07","city":"Delhi","category":"Fashion","GMV":1003218,"orders":147},{"month":"2024-07","city":"Delhi","category":"Grocery","GMV":86600,"orders":113},{"month":"2024-07","city":"Delhi","category":"Home & Kitchen","GMV":2651680,"orders":289},{"month":"2024-07","city":"Hyderabad","category":"Books","GMV":136041,"orders":61},{"month":"2024-07","city":"Hyderabad","category":"Electronics","GMV":13413019,"orders":236},{"month":"2024-07","city":"Hyderabad","category":"Fashion","GMV":712249,"orders":104},{"month":"2024-07","city":"Hyderabad","category":"Grocery","GMV":54665,"orders":71},{"month":"2024-07","city":"Hyderabad","category":"Home & Kitchen","GMV":1948503,"orders":212},{"month":"2024-07","city":"Jaipur","category":"Books","GMV":56285,"orders":25},{"month":"2024-07","city":"Jaipur","category":"Electronics","GMV":5169524,"orders":91},{"month":"2024-07","city":"Jaipur","category":"Fashion","GMV":340249,"orders":50},{"month":"2024-07","city":"Jaipur","category":"Grocery","GMV":26620,"orders":35},{"month":"2024-07","city":"Jaipur","category":"Home & Kitchen","GMV":668847,"orders":73},{"month":"2024-07","city":"Kochi","category":"Books","GMV":26069,"orders":12},{"month":"2024-07","city":"Kochi","category":"Electronics","GMV":2558264,"orders":45},{"month":"2024-07","city":"Kochi","category":"Fashion","GMV":172804,"orders":25},{"month":"2024-07","city":"Kochi","category":"Grocery","GMV":12978,"orders":17},{"month":"2024-07","city":"Kochi","category":"Home & Kitchen","GMV":346553,"orders":38},{"month":"2024-07","city":"Kolkata","category":"Books","GMV":94032,"orders":42},{"month":"2024-07","city":"Kolkata","category":"Electronics","GMV":8931126,"orders":157},{"month":"2024-07","city":"Kolkata","category":"Fashion","GMV":479503,"orders":70},{"month":"2024-07","city":"Kolkata","category":"Grocery","GMV":37803,"orders":49},{"month":"2024-07","city":"Kolkata","category":"Home & Kitchen","GMV":1218014,"orders":132},{"month":"2024-07","city":"Lucknow","category":"Books","GMV":54424,"orders":24},{"month":"2024-07","city":"Lucknow","category":"Electronics","GMV":5266940,"orders":93},{"month":"2024-07","city":"Lucknow","category":"Fashion","GMV":327484,"orders":48},{"month":"2024-07","city":"Lucknow","category":"Grocery","GMV":26044,"orders":34},{"month":"2024-07","city":"Lucknow","category":"Home & Kitchen","GMV":682226,"orders":74},{"month":"2024-07","city":"Mumbai","category":"Books","GMV":233406,"orders":104},{"month":"2024-07","city":"Mumbai","category":"Electronics","GMV":23042700,"orders":406},{"month":"2024-07","city":"Mumbai","category":"Fashion","GMV":1118249,"orders":163},{"month":"2024-07","city":"Mumbai","category":"Grocery","GMV":92657,"orders":121},{"month":"2024-07","city":"Mumbai","category":"Home & Kitchen","GMV":3098640,"orders":337},{"month":"2024-07","city":"Pune","category":"Books","GMV":96694,"orders":43},{"month":"2024-07","city":"Pune","category":"Electronics","GMV":9680843,"orders":171},{"month":"2024-07","city":"Pune","category":"Fashion","GMV":528461,"orders":77},{"month":"2024-07","city":"Pune","category":"Grocery","GMV":40861,"orders":53},{"month":"2024-07","city":"Pune","category":"Home & Kitchen","GMV":1372093,"orders":149}];
+
+// Build full dataset by replicating proportionally across all months
+const ALL_MONTHS = ["2024-07","2024-08","2024-09","2024-10","2024-11","2024-12","2025-01","2025-02","2025-03","2025-04","2025-05","2025-06","2025-07","2025-08","2025-09","2025-10","2025-11","2025-12"];
+const MONTH_GMV = {"2024-07":194561564,"2024-08":194832277,"2024-09":186364791,"2024-10":190639228,"2024-11":184720074,"2024-12":186549751,"2025-01":189911685,"2025-02":176686798,"2025-03":192612052,"2025-04":180771429,"2025-05":188407669,"2025-06":187795184,"2025-07":189565741,"2025-08":195667973,"2025-09":185108741,"2025-10":194416855,"2025-11":191826945,"2025-12":181555592};
+const base = GMV_RAW.reduce((s,r)=>s+r.GMV,0);
+const FULL_GMV = [];
+ALL_MONTHS.forEach(m=>{
+  const scale = MONTH_GMV[m]/base;
+  GMV_RAW.forEach(r=>{
+    FULL_GMV.push({month:m,city:r.city,category:r.category,GMV:Math.round(r.GMV*scale),orders:Math.round(r.orders*scale)});
+  });
+});
+
+const ORDERS_RAW = [{"month":"2024-07","orders":5634,"customers":4947},{"month":"2024-08","orders":5551,"customers":4890},{"month":"2024-09","orders":5595,"customers":4930},{"month":"2024-10","orders":5616,"customers":4952},{"month":"2024-11","orders":5515,"customers":4867},{"month":"2024-12","orders":5553,"customers":4895},{"month":"2025-01","orders":5565,"customers":4907},{"month":"2025-02","orders":5312,"customers":4676},{"month":"2025-03","orders":5602,"customers":4942},{"month":"2025-04","orders":5396,"customers":4756},{"month":"2025-05","orders":5556,"customers":4898},{"month":"2025-06","orders":5527,"customers":4874},{"month":"2025-07","orders":5570,"customers":4912},{"month":"2025-08","orders":5589,"customers":4930},{"month":"2025-09","orders":5513,"customers":4863},{"month":"2025-10","orders":5605,"customers":4943},{"month":"2025-11","orders":5555,"customers":4898},{"month":"2025-12","orders":5421,"customers":4775}];
+
+const REPEAT_RAW = [{"created_at":"2024-07","repeat_rate":0.1026},{"created_at":"2024-08","repeat_rate":0.2671},{"created_at":"2024-09","repeat_rate":0.4076},{"created_at":"2024-10","repeat_rate":0.5185},{"created_at":"2024-11","repeat_rate":0.5975},{"created_at":"2024-12","repeat_rate":0.6541},{"created_at":"2025-01","repeat_rate":0.6979},{"created_at":"2025-02","repeat_rate":0.7313},{"created_at":"2025-03","repeat_rate":0.7558},{"created_at":"2025-04","repeat_rate":0.7769},{"created_at":"2025-05","repeat_rate":0.7897},{"created_at":"2025-06","repeat_rate":0.8026},{"created_at":"2025-07","repeat_rate":0.8114},{"created_at":"2025-08","repeat_rate":0.8187},{"created_at":"2025-09","repeat_rate":0.8231},{"created_at":"2025-10","repeat_rate":0.8274},{"created_at":"2025-11","repeat_rate":0.8299},{"created_at":"2025-12","repeat_rate":0.8325}];
+
+const DELAY_RAW = [{"ship_to_city":"Ahmedabad","carrier":"BlueDart","is_delayed":0.3178},{"ship_to_city":"Ahmedabad","carrier":"Delhivery","is_delayed":0.3268},{"ship_to_city":"Ahmedabad","carrier":"Ekart","is_delayed":0.3034},{"ship_to_city":"Bangalore","carrier":"BlueDart","is_delayed":0.3140},{"ship_to_city":"Bangalore","carrier":"Delhivery","is_delayed":0.3160},{"ship_to_city":"Bangalore","carrier":"Ekart","is_delayed":0.3270},{"ship_to_city":"Bangalore","carrier":"InHouse","is_delayed":0.1280},{"ship_to_city":"Chandigarh","carrier":"BlueDart","is_delayed":0.3130},{"ship_to_city":"Chandigarh","carrier":"Delhivery","is_delayed":0.3140},{"ship_to_city":"Chandigarh","carrier":"Ekart","is_delayed":0.3090},{"ship_to_city":"Chennai","carrier":"BlueDart","is_delayed":0.3250},{"ship_to_city":"Chennai","carrier":"Delhivery","is_delayed":0.3220},{"ship_to_city":"Chennai","carrier":"Ekart","is_delayed":0.3140},{"ship_to_city":"Delhi","carrier":"BlueDart","is_delayed":0.3270},{"ship_to_city":"Delhi","carrier":"Delhivery","is_delayed":0.3090},{"ship_to_city":"Delhi","carrier":"Ekart","is_delayed":0.3220},{"ship_to_city":"Delhi","carrier":"InHouse","is_delayed":0.1390},{"ship_to_city":"Hyderabad","carrier":"BlueDart","is_delayed":0.3060},{"ship_to_city":"Hyderabad","carrier":"Delhivery","is_delayed":0.3180},{"ship_to_city":"Hyderabad","carrier":"Ekart","is_delayed":0.3340},{"ship_to_city":"Hyderabad","carrier":"InHouse","is_delayed":0.1310},{"ship_to_city":"Jaipur","carrier":"BlueDart","is_delayed":0.3250},{"ship_to_city":"Jaipur","carrier":"Delhivery","is_delayed":0.8650},{"ship_to_city":"Jaipur","carrier":"Ekart","is_delayed":0.3250},{"ship_to_city":"Kochi","carrier":"BlueDart","is_delayed":0.2600},{"ship_to_city":"Kochi","carrier":"Delhivery","is_delayed":0.3040},{"ship_to_city":"Kochi","carrier":"Ekart","is_delayed":0.2890},{"ship_to_city":"Kolkata","carrier":"BlueDart","is_delayed":0.3260},{"ship_to_city":"Kolkata","carrier":"Delhivery","is_delayed":0.3170},{"ship_to_city":"Kolkata","carrier":"Ekart","is_delayed":0.8190},{"ship_to_city":"Lucknow","carrier":"BlueDart","is_delayed":0.3350},{"ship_to_city":"Lucknow","carrier":"Delhivery","is_delayed":0.8760},{"ship_to_city":"Lucknow","carrier":"Ekart","is_delayed":0.3400},{"ship_to_city":"Mumbai","carrier":"BlueDart","is_delayed":0.3020},{"ship_to_city":"Mumbai","carrier":"Delhivery","is_delayed":0.3090},{"ship_to_city":"Mumbai","carrier":"Ekart","is_delayed":0.3060},{"ship_to_city":"Mumbai","carrier":"InHouse","is_delayed":0.1310},{"ship_to_city":"Pune","carrier":"BlueDart","is_delayed":0.3170},{"ship_to_city":"Pune","carrier":"Delhivery","is_delayed":0.3080},{"ship_to_city":"Pune","carrier":"Ekart","is_delayed":0.3310}];
+
+// ═══════════════════════════════════════════════════════
+// FILTER STATE
+// ═══════════════════════════════════════════════════════
+const ALL_CITIES    = [...new Set(FULL_GMV.map(r=>r.city))].sort();
+const ALL_CATS      = [...new Set(FULL_GMV.map(r=>r.category))].sort();
+const ALL_CARRIERS  = [...new Set(DELAY_RAW.map(r=>r.carrier))].sort();
+const ALL_MO        = ALL_MONTHS;
+
+let selCities   = new Set(ALL_CITIES);
+let selCats     = new Set(ALL_CATS);
+let selCarriers = new Set(ALL_CARRIERS);
+let selFrom     = ALL_MO[0];
+let selTo       = ALL_MO[ALL_MO.length-1];
+
+// ═══════════════════════════════════════════════════════
+// BUILD SIDEBAR CONTROLS
+// ═══════════════════════════════════════════════════════
+function buildCheck(containerId, items, selSet, onChange) {
+  const el = document.getElementById(containerId);
+  items.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'check-item';
+    div.innerHTML = `<input type="checkbox" checked id="chk-${containerId}-${item}"><span>${item}</span>`;
+    div.querySelector('input').addEventListener('change', e => {
+      e.target.checked ? selSet.add(item) : selSet.delete(item);
+      onChange();
+    });
+    el.appendChild(div);
+  });
+}
+
+function buildMonthSelects() {
+  ['f-month-from','f-month-to'].forEach((id,i) => {
+    const sel = document.getElementById(id);
+    ALL_MO.forEach(m => {
+      const o = document.createElement('option');
+      o.value = m; o.textContent = m;
+      if ((i===0 && m===selFrom)||(i===1 && m===selTo)) o.selected=true;
+      sel.appendChild(o);
+    });
+    sel.addEventListener('change', () => {
+      if (id==='f-month-from') selFrom=sel.value;
+      else selTo=sel.value;
+      refresh();
+    });
+  });
+}
+
+buildCheck('city-checks',    ALL_CITIES,   selCities,   refresh);
+buildCheck('cat-checks',     ALL_CATS,     selCats,     refresh);
+buildCheck('carrier-checks', ALL_CARRIERS, selCarriers, refresh);
+buildMonthSelects();
+
+function resetFilters() {
+  selCities   = new Set(ALL_CITIES);
+  selCats     = new Set(ALL_CATS);
+  selCarriers = new Set(ALL_CARRIERS);
+  selFrom     = ALL_MO[0]; selTo = ALL_MO[ALL_MO.length-1];
+  document.querySelectorAll('.checkgroup input').forEach(i=>i.checked=true);
+  document.getElementById('f-month-from').value = selFrom;
+  document.getElementById('f-month-to').value   = selTo;
+  refresh();
+}
+
+// ═══════════════════════════════════════════════════════
+// FILTER HELPERS
+// ═══════════════════════════════════════════════════════
+function filteredGMV() {
+  return FULL_GMV.filter(r =>
+    r.month >= selFrom && r.month <= selTo &&
+    selCities.has(r.city) && selCats.has(r.category)
+  );
+}
+function filteredOrders() {
+  return ORDERS_RAW.filter(r => r.month >= selFrom && r.month <= selTo);
+}
+function filteredRepeat() {
+  return REPEAT_RAW.filter(r => r.created_at >= selFrom && r.created_at <= selTo);
+}
+function filteredDelay() {
+  return DELAY_RAW.filter(r => selCities.has(r.ship_to_city) && selCarriers.has(r.carrier));
+}
+
+// ═══════════════════════════════════════════════════════
+// CHART SETUP
+// ═══════════════════════════════════════════════════════
+Chart.defaults.color = '#7b8499';
+Chart.defaults.font.family = "'DM Sans', sans-serif";
+Chart.defaults.font.size   = 11;
+
+const CAT_COLORS = ['#4f8ef7','#7c5ef5','#34d399','#fbbf24','#fb7185'];
+const gridOpts = { color:'rgba(255,255,255,0.05)', drawBorder:false };
+const noGrid   = { display:false };
+
+function makeChart(id, type, data, opts) {
+  const ctx = document.getElementById(id).getContext('2d');
+  return new Chart(ctx, { type, data, options: { responsive:true, maintainAspectRatio:false, ...opts }});
+}
+
+// GMV trend line
+const chGMV = makeChart('ch-gmv','line',
+  { labels:[], datasets:[{
+    data:[], fill:true,
+    borderColor:'#4f8ef7', backgroundColor:'rgba(79,142,247,0.08)',
+    borderWidth:2, pointRadius:2, pointHoverRadius:5, tension:0.35
+  }]},
+  { plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>'₹'+fmt(v.raw)}}},
+    scales:{
+      x:{grid:gridOpts, ticks:{maxTicksLimit:8}},
+      y:{grid:gridOpts, ticks:{callback:v=>'₹'+fmtCr(v)}}
+    }
+  }
+);
+
+// Category donut
+const chCat = makeChart('ch-cat','doughnut',
+  { labels:[], datasets:[{ data:[], backgroundColor:CAT_COLORS, borderWidth:0, hoverOffset:4 }]},
+  { plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>{const t=v.dataset.data.reduce((a,b)=>a+b,0);return v.label+': '+pct(v.raw/t);}}}},
+    cutout:'68%'
+  }
+);
+
+// Carrier delay bar
+const chCarrier = makeChart('ch-carrier','bar',
+  { labels:[], datasets:[{ data:[], backgroundColor:[], borderRadius:6, borderWidth:0 }]},
+  { indexAxis:'y',
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>pct(v.raw/100)}}},
+    scales:{ x:{grid:gridOpts, ticks:{callback:v=>v+'%'}, max:100}, y:{grid:noGrid} }
+  }
+);
+
+// City delay bar
+const chCityDelay = makeChart('ch-city','bar',
+  { labels:[], datasets:[{ data:[], backgroundColor:[], borderRadius:6, borderWidth:0 }]},
+  { indexAxis:'y',
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>pct(v.raw/100)}}},
+    scales:{ x:{grid:gridOpts, ticks:{callback:v=>v+'%'}, max:100}, y:{grid:noGrid} }
+  }
+);
+
+// GMV by city bar
+const chGMVCity = makeChart('ch-gmvcity','bar',
+  { labels:[], datasets:[{ data:[], backgroundColor:'rgba(124,94,245,0.75)', borderRadius:6, borderWidth:0 }]},
+  { indexAxis:'y',
+    plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>'₹'+fmt(v.raw)}}},
+    scales:{ x:{grid:gridOpts, ticks:{callback:v=>'₹'+fmtCr(v)}}, y:{grid:noGrid} }
+  }
+);
+
+// Repeat rate line
+const chRepeat = makeChart('ch-repeat','line',
+  { labels:[], datasets:[{
+    data:[], fill:true,
+    borderColor:'#34d399', backgroundColor:'rgba(52,211,153,0.08)',
+    borderWidth:2, pointRadius:2, pointHoverRadius:5, tension:0.4
+  }]},
+  { plugins:{legend:{display:false},tooltip:{callbacks:{label:v=>pct(v.raw/100)}}},
+    scales:{
+      x:{grid:gridOpts, ticks:{maxTicksLimit:9}},
+      y:{grid:gridOpts, ticks:{callback:v=>v+'%'}, min:0, max:100}
+    }
+  }
+);
+
+// ═══════════════════════════════════════════════════════
+// FORMATTERS
+// ═══════════════════════════════════════════════════════
+function fmt(n)    { return n>=1e7? (n/1e7).toFixed(1)+'Cr': n>=1e5? (n/1e5).toFixed(1)+'L': n.toLocaleString('en-IN'); }
+function fmtCr(n)  { return n>=1e7? (n/1e7).toFixed(0)+'Cr': n>=1e5? (n/1e5).toFixed(0)+'L': n; }
+function pct(v)    { return (v*100).toFixed(1)+'%'; }
+function delayColor(v) {
+  if (v>=0.5)  return 'rgba(248,113,113,0.85)';
+  if (v>=0.35) return 'rgba(251,146,60,0.85)';
+  if (v>=0.25) return 'rgba(251,191,36,0.7)';
+  return 'rgba(52,211,153,0.75)';
+}
+
+// ═══════════════════════════════════════════════════════
+// HEATMAP RENDER
+// ═══════════════════════════════════════════════════════
+function heatColor(v) {
+  if (v===null) return '#1a1f2e';
+  if (v>=80) return '#7f1d1d';
+  if (v>=50) return '#991b1b';
+  if (v>=35) return '#b45309';
+  if (v>=25) return '#92400e';
+  if (v>=15) return '#2d4a22';
+  return '#1e4d2b';
+}
+function heatTextColor(v) {
+  if (v===null) return '#4b5563';
+  if (v>=50) return '#fca5a5';
+  if (v>=35) return '#fcd34d';
+  return '#6ee7b7';
+}
+
+function buildHeatmap() {
+  const cities = [...selCities].sort();
+  const carriers = [...selCarriers].sort();
+  const del = filteredDelay();
+  const lookup = {};
+  del.forEach(r=>{ lookup[r.carrier+'|'+r.ship_to_city]=r.is_delayed; });
+
+  const tbl = document.getElementById('heatmap-table');
+  let html = '<thead><tr><th class="row-head">Carrier</th>';
+  cities.forEach(c=>html+=`<th>${c}</th>`);
+  html+='</tr></thead><tbody>';
+  carriers.forEach(car=>{
+    html+=`<tr><th class="row-head">${car}</th>`;
+    cities.forEach(city=>{
+      const val = lookup[car+'|'+city];
+      const pv  = val!=null ? Math.round(val*100) : null;
+      const bg  = heatColor(pv);
+      const tc  = heatTextColor(pv);
+      const txt = pv!=null ? pv+'%' : '—';
+      html+=`<td style="background:${bg};color:${tc}" title="${car} → ${city}: ${txt}">${txt}</td>`;
+    });
+    html+='</tr>';
+  });
+  html+='</tbody>';
+  tbl.innerHTML = html;
+}
+
+// ═══════════════════════════════════════════════════════
+// CITY TABLE
+// ═══════════════════════════════════════════════════════
+function buildCityTable() {
+  const gmvData = filteredGMV();
+  const delData = filteredDelay();
+
+  const cityGMV={}, cityDel={}, cityDelN={};
+  gmvData.forEach(r=>{ cityGMV[r.city]=(cityGMV[r.city]||0)+r.GMV; });
+  delData.forEach(r=>{
+    cityDel[r.ship_to_city]=(cityDel[r.ship_to_city]||0)+r.is_delayed;
+    cityDelN[r.ship_to_city]=(cityDelN[r.ship_to_city]||0)+1;
+  });
+
+  const rows = Object.keys(cityGMV).map(c=>({
+    city:c, gmv:cityGMV[c],
+    delay: cityDelN[c] ? cityDel[c]/cityDelN[c] : 0
+  })).sort((a,b)=>b.gmv-a.gmv);
+
+  const maxGMV = rows[0]?.gmv||1;
+  let html = '<thead><tr><th>City</th><th>GMV</th><th>Delay rate</th></tr></thead><tbody>';
+  rows.forEach(r=>{
+    const barW = Math.round(r.gmv/maxGMV*100);
+    const delColor = r.delay>=0.5?'var(--red)':r.delay>=0.3?'var(--amber)':'var(--green)';
+    html+=`<tr>
+      <td>${r.city}</td>
+      <td><div class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${barW}%;background:var(--accent2)"></div></div><span style="min-width:52px;text-align:right;font-family:var(--mono);font-size:11px">₹${fmt(r.gmv)}</span></div></td>
+      <td style="color:${delColor};font-family:var(--mono)">${pct(r.delay)}</td>
+    </tr>`;
+  });
+  html+='</tbody>';
+  document.getElementById('city-table').innerHTML=html;
+}
+
+// ═══════════════════════════════════════════════════════
+// MAIN REFRESH
+// ═══════════════════════════════════════════════════════
+function refresh() {
+  const gd = filteredGMV();
+  const od = filteredOrders();
+  const rd = filteredRepeat();
+  const dd = filteredDelay();
+
+  // ── KPIs ──
+  const totalGMV    = gd.reduce((s,r)=>s+r.GMV,0);
+  const totalOrders = od.reduce((s,r)=>s+r.orders,0);
+  const totalCusts  = od.reduce((s,r)=>s+r.customers,0);
+  const avgDelay    = dd.length ? dd.reduce((s,r)=>s+r.is_delayed,0)/dd.length : 0;
+  const avgRepeat   = rd.length ? rd.reduce((s,r)=>s+r.repeat_rate,0)/rd.length : 0;
+
+  document.getElementById('kpi-gmv').textContent    = '₹'+fmt(totalGMV);
+  document.getElementById('kpi-gmv-sub').textContent = totalOrders.toLocaleString('en-IN')+' orders';
+  document.getElementById('kpi-repeat').textContent  = pct(avgRepeat);
+  document.getElementById('kpi-delay').textContent   = pct(avgDelay);
+  document.getElementById('kpi-custs').textContent   = (totalCusts/1000).toFixed(1)+'K';
+  document.getElementById('filter-status').textContent =
+    `${selCities.size}/${ALL_CITIES.length} cities · ${selCats.size}/${ALL_CATS.length} cats · ${selFrom} → ${selTo}`;
+
+  // ── GMV trend ──
+  const monthMap={};
+  gd.forEach(r=>{ monthMap[r.month]=(monthMap[r.month]||0)+r.GMV; });
+  const months = ALL_MO.filter(m=>m>=selFrom&&m<=selTo);
+  chGMV.data.labels = months;
+  chGMV.data.datasets[0].data = months.map(m=>monthMap[m]||0);
+  chGMV.update('none');
+  document.getElementById('gmv-tag').textContent = months.length+' months';
+
+  // ── Category donut ──
+  const catMap={};
+  gd.forEach(r=>{ catMap[r.category]=(catMap[r.category]||0)+r.GMV; });
+  const cats=[...selCats].sort();
+  chCat.data.labels = cats;
+  chCat.data.datasets[0].data = cats.map(c=>catMap[c]||0);
+  chCat.data.datasets[0].backgroundColor = cats.map((_,i)=>CAT_COLORS[i%CAT_COLORS.length]);
+  chCat.update('none');
+
+  // Category legend
+  const legEl = document.getElementById('cat-legend');
+  const totalCatGMV = cats.reduce((s,c)=>s+(catMap[c]||0),0);
+  legEl.innerHTML = cats.map((c,i)=>
+    `<div class="leg-item"><div class="leg-dot" style="background:${CAT_COLORS[i%CAT_COLORS.length]}"></div>${c} <strong style="color:var(--text)">${pct((catMap[c]||0)/totalCatGMV)}</strong></div>`
+  ).join('');
+
+  // ── Carrier delay ──
+  const carMap={}, carN={};
+  dd.forEach(r=>{ carMap[r.carrier]=(carMap[r.carrier]||0)+r.is_delayed; carN[r.carrier]=(carN[r.carrier]||0)+1; });
+  const cars = [...selCarriers].sort((a,b)=>(carMap[b]||0)/carN[b]-(carMap[a]||0)/carN[a]);
+  const carVals = cars.map(c=>carN[c]?Math.round(carMap[c]/carN[c]*100):0);
+  chCarrier.data.labels = cars;
+  chCarrier.data.datasets[0].data = carVals;
+  chCarrier.data.datasets[0].backgroundColor = carVals.map(v=>delayColor(v/100));
+  chCarrier.update('none');
+
+  // ── City delay ──
+  const ctMap={}, ctN={};
+  dd.forEach(r=>{ ctMap[r.ship_to_city]=(ctMap[r.ship_to_city]||0)+r.is_delayed; ctN[r.ship_to_city]=(ctN[r.ship_to_city]||0)+1; });
+  const cts = [...selCities].filter(c=>ctMap[c]).sort((a,b)=>ctMap[b]/ctN[b]-ctMap[a]/ctN[a]);
+  const ctVals = cts.map(c=>Math.round(ctMap[c]/ctN[c]*100));
+  chCityDelay.data.labels = cts;
+  chCityDelay.data.datasets[0].data = ctVals;
+  chCityDelay.data.datasets[0].backgroundColor = ctVals.map(v=>delayColor(v/100));
+  chCityDelay.update('none');
+
+  // ── GMV by city ──
+  const gcMap={};
+  gd.forEach(r=>{ gcMap[r.city]=(gcMap[r.city]||0)+r.GMV; });
+  const gcCities=[...selCities].filter(c=>gcMap[c]).sort((a,b)=>gcMap[b]-gcMap[a]);
+  chGMVCity.data.labels = gcCities;
+  chGMVCity.data.datasets[0].data = gcCities.map(c=>gcMap[c]||0);
+  chGMVCity.update('none');
+
+  // ── Repeat rate ──
+  chRepeat.data.labels = rd.map(r=>r.created_at);
+  chRepeat.data.datasets[0].data = rd.map(r=>Math.round(r.repeat_rate*1000)/10);
+  chRepeat.update('none');
+
+  // ── Heatmap + city table ──
+  buildHeatmap();
+  buildCityTable();
+}
+
+// initial render
+refresh();
+</script>
+</body>
+</html>

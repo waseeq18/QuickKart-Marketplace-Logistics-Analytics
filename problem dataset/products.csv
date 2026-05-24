@@ -1,0 +1,3001 @@
+product_id,category,subcategory,base_price
+P00001,Books,Fiction,2717
+P00002,Grocery,Staples,904
+P00003,Fashion,Footwear,1205
+P00004,Grocery,Snacks,1813
+P00005,Home & Kitchen,Furniture,20760
+P00006,Fashion,Women's Clothing,2786
+P00007,Grocery,Staples,114
+P00008,Electronics,Cameras,37149
+P00009,Fashion,Men's Clothing,1510
+P00010,Grocery,Personal Care,1161
+P00011,Grocery,Staples,1649
+P00012,Grocery,Staples,808
+P00013,Books,Fiction,185
+P00014,Home & Kitchen,Furniture,17128
+P00015,Home & Kitchen,Furniture,4444
+P00016,Grocery,Staples,453
+P00017,Electronics,Cameras,15379
+P00018,Grocery,Snacks,581
+P00019,Fashion,Watches,7091
+P00020,Electronics,Laptops,3255
+P00021,Electronics,Audio,49725
+P00022,Home & Kitchen,Decor,6258
+P00023,Grocery,Staples,611
+P00024,Books,Non-Fiction,1295
+P00025,Books,Children's,1697
+P00026,Grocery,Beverages,150
+P00027,Electronics,Accessories,22742
+P00028,Fashion,Women's Clothing,1270
+P00029,Electronics,Laptops,16357
+P00030,Fashion,Footwear,7100
+P00031,Home & Kitchen,Cookware,13216
+P00032,Home & Kitchen,Cookware,15824
+P00033,Electronics,Audio,64272
+P00034,Grocery,Staples,1596
+P00035,Grocery,Beverages,1979
+P00036,Fashion,Footwear,6299
+P00037,Books,Academic,1141
+P00038,Fashion,Men's Clothing,4447
+P00039,Fashion,Watches,3980
+P00040,Grocery,Staples,1828
+P00041,Fashion,Watches,4119
+P00042,Books,Fiction,1226
+P00043,Home & Kitchen,Decor,4618
+P00044,Home & Kitchen,Decor,8074
+P00045,Home & Kitchen,Furniture,5593
+P00046,Grocery,Staples,1795
+P00047,Electronics,Smartphones,62394
+P00048,Home & Kitchen,Furniture,1606
+P00049,Grocery,Beverages,1983
+P00050,Electronics,Smartphones,42590
+P00051,Electronics,Laptops,61464
+P00052,Fashion,Men's Clothing,7997
+P00053,Home & Kitchen,Appliances,24353
+P00054,Grocery,Beverages,227
+P00055,Books,Children's,2005
+P00056,Home & Kitchen,Decor,6773
+P00057,Grocery,Snacks,1638
+P00058,Fashion,Footwear,7355
+P00059,Home & Kitchen,Decor,1539
+P00060,Grocery,Snacks,1993
+P00061,Grocery,Beverages,462
+P00062,Fashion,Men's Clothing,6803
+P00063,Electronics,Cameras,63893
+P00064,Electronics,Laptops,28707
+P00065,Grocery,Snacks,1683
+P00066,Books,Non-Fiction,2551
+P00067,Electronics,Audio,14500
+P00068,Books,Children's,1818
+P00069,Electronics,Accessories,64594
+P00070,Grocery,Snacks,1404
+P00071,Electronics,Accessories,73161
+P00072,Home & Kitchen,Cookware,851
+P00073,Electronics,Laptops,56195
+P00074,Electronics,Smartphones,75831
+P00075,Home & Kitchen,Decor,14156
+P00076,Grocery,Personal Care,1139
+P00077,Fashion,Footwear,1668
+P00078,Home & Kitchen,Cookware,24702
+P00079,Grocery,Snacks,1767
+P00080,Electronics,Cameras,39632
+P00081,Home & Kitchen,Decor,7830
+P00082,Fashion,Women's Clothing,4025
+P00083,Home & Kitchen,Appliances,2393
+P00084,Home & Kitchen,Appliances,5931
+P00085,Fashion,Watches,1907
+P00086,Electronics,Laptops,42353
+P00087,Home & Kitchen,Decor,167
+P00088,Fashion,Women's Clothing,7360
+P00089,Fashion,Women's Clothing,1771
+P00090,Electronics,Cameras,10874
+P00091,Grocery,Beverages,1442
+P00092,Electronics,Cameras,73543
+P00093,Fashion,Watches,6785
+P00094,Home & Kitchen,Appliances,8191
+P00095,Electronics,Accessories,2242
+P00096,Electronics,Laptops,47135
+P00097,Grocery,Snacks,1837
+P00098,Grocery,Personal Care,1556
+P00099,Fashion,Men's Clothing,6803
+P00100,Fashion,Men's Clothing,6913
+P00101,Fashion,Men's Clothing,7692
+P00102,Electronics,Laptops,30200
+P00103,Fashion,Women's Clothing,7547
+P00104,Home & Kitchen,Appliances,9981
+P00105,Fashion,Men's Clothing,988
+P00106,Home & Kitchen,Appliances,7649
+P00107,Electronics,Audio,11348
+P00108,Fashion,Watches,1429
+P00109,Grocery,Beverages,1899
+P00110,Electronics,Cameras,63451
+P00111,Electronics,Smartphones,76873
+P00112,Electronics,Smartphones,52110
+P00113,Home & Kitchen,Decor,4479
+P00114,Electronics,Accessories,77515
+P00115,Books,Fiction,2111
+P00116,Fashion,Footwear,7445
+P00117,Books,Children's,2382
+P00118,Electronics,Laptops,18247
+P00119,Grocery,Personal Care,1190
+P00120,Grocery,Staples,375
+P00121,Fashion,Footwear,2593
+P00122,Grocery,Snacks,1386
+P00123,Grocery,Staples,281
+P00124,Electronics,Accessories,58442
+P00125,Grocery,Snacks,1899
+P00126,Grocery,Snacks,1899
+P00127,Fashion,Footwear,3254
+P00128,Grocery,Snacks,1989
+P00129,Fashion,Men's Clothing,7728
+P00130,Home & Kitchen,Decor,955
+P00131,Electronics,Audio,48390
+P00132,Electronics,Smartphones,73723
+P00133,Fashion,Men's Clothing,7747
+P00134,Books,Academic,741
+P00135,Fashion,Footwear,4611
+P00136,Electronics,Laptops,74967
+P00137,Fashion,Men's Clothing,1297
+P00138,Fashion,Women's Clothing,6014
+P00139,Books,Fiction,790
+P00140,Electronics,Smartphones,78599
+P00141,Books,Children's,587
+P00142,Books,Fiction,2667
+P00143,Grocery,Snacks,205
+P00144,Electronics,Laptops,56863
+P00145,Grocery,Personal Care,1289
+P00146,Home & Kitchen,Furniture,22183
+P00147,Fashion,Footwear,3684
+P00148,Books,Children's,869
+P00149,Electronics,Laptops,20338
+P00150,Fashion,Women's Clothing,729
+P00151,Books,Academic,844
+P00152,Grocery,Personal Care,243
+P00153,Grocery,Beverages,33
+P00154,Electronics,Audio,31182
+P00155,Home & Kitchen,Appliances,18355
+P00156,Fashion,Men's Clothing,7759
+P00157,Home & Kitchen,Furniture,22131
+P00158,Home & Kitchen,Furniture,12403
+P00159,Electronics,Smartphones,30608
+P00160,Fashion,Footwear,4459
+P00161,Fashion,Men's Clothing,991
+P00162,Electronics,Cameras,38619
+P00163,Electronics,Cameras,69192
+P00164,Electronics,Laptops,52252
+P00165,Grocery,Snacks,1384
+P00166,Home & Kitchen,Cookware,4192
+P00167,Fashion,Men's Clothing,775
+P00168,Grocery,Staples,1696
+P00169,Electronics,Laptops,23945
+P00170,Grocery,Staples,658
+P00171,Grocery,Staples,1905
+P00172,Home & Kitchen,Decor,1994
+P00173,Home & Kitchen,Cookware,4377
+P00174,Electronics,Cameras,30349
+P00175,Home & Kitchen,Furniture,18340
+P00176,Electronics,Accessories,43990
+P00177,Home & Kitchen,Appliances,22468
+P00178,Books,Non-Fiction,370
+P00179,Fashion,Women's Clothing,4833
+P00180,Electronics,Cameras,49285
+P00181,Electronics,Cameras,38878
+P00182,Electronics,Audio,2964
+P00183,Fashion,Women's Clothing,7551
+P00184,Home & Kitchen,Appliances,4250
+P00185,Home & Kitchen,Appliances,22260
+P00186,Grocery,Snacks,339
+P00187,Electronics,Smartphones,8550
+P00188,Books,Fiction,696
+P00189,Home & Kitchen,Appliances,4871
+P00190,Fashion,Footwear,5638
+P00191,Home & Kitchen,Appliances,18093
+P00192,Grocery,Personal Care,1468
+P00193,Grocery,Personal Care,553
+P00194,Books,Fiction,916
+P00195,Home & Kitchen,Cookware,6053
+P00196,Electronics,Smartphones,4446
+P00197,Electronics,Audio,45956
+P00198,Electronics,Accessories,67268
+P00199,Fashion,Men's Clothing,1398
+P00200,Fashion,Women's Clothing,3014
+P00201,Fashion,Women's Clothing,3535
+P00202,Electronics,Laptops,23917
+P00203,Electronics,Cameras,53131
+P00204,Home & Kitchen,Appliances,15065
+P00205,Home & Kitchen,Furniture,5112
+P00206,Fashion,Watches,401
+P00207,Fashion,Women's Clothing,1532
+P00208,Home & Kitchen,Decor,7402
+P00209,Electronics,Audio,7014
+P00210,Fashion,Women's Clothing,6781
+P00211,Home & Kitchen,Cookware,7813
+P00212,Grocery,Personal Care,813
+P00213,Electronics,Cameras,39383
+P00214,Electronics,Smartphones,53053
+P00215,Electronics,Smartphones,7745
+P00216,Grocery,Staples,1102
+P00217,Grocery,Staples,394
+P00218,Electronics,Laptops,70897
+P00219,Electronics,Laptops,29867
+P00220,Grocery,Personal Care,908
+P00221,Fashion,Watches,2254
+P00222,Books,Children's,1449
+P00223,Fashion,Women's Clothing,1965
+P00224,Fashion,Watches,2295
+P00225,Fashion,Men's Clothing,681
+P00226,Home & Kitchen,Furniture,18843
+P00227,Grocery,Personal Care,1345
+P00228,Home & Kitchen,Cookware,2280
+P00229,Fashion,Watches,2882
+P00230,Grocery,Beverages,1097
+P00231,Electronics,Audio,77671
+P00232,Grocery,Beverages,1192
+P00233,Electronics,Audio,44511
+P00234,Electronics,Cameras,67343
+P00235,Books,Children's,2473
+P00236,Grocery,Snacks,855
+P00237,Home & Kitchen,Furniture,13458
+P00238,Electronics,Accessories,69418
+P00239,Fashion,Women's Clothing,3904
+P00240,Home & Kitchen,Cookware,22059
+P00241,Fashion,Men's Clothing,3915
+P00242,Electronics,Accessories,6777
+P00243,Fashion,Men's Clothing,7242
+P00244,Fashion,Men's Clothing,5772
+P00245,Books,Children's,1556
+P00246,Fashion,Women's Clothing,7224
+P00247,Books,Fiction,2421
+P00248,Books,Fiction,2065
+P00249,Fashion,Women's Clothing,5038
+P00250,Books,Fiction,449
+P00251,Grocery,Staples,1522
+P00252,Home & Kitchen,Furniture,4446
+P00253,Home & Kitchen,Appliances,24612
+P00254,Electronics,Smartphones,77787
+P00255,Home & Kitchen,Furniture,20240
+P00256,Fashion,Men's Clothing,1184
+P00257,Grocery,Staples,864
+P00258,Fashion,Watches,7909
+P00259,Grocery,Beverages,888
+P00260,Electronics,Accessories,79783
+P00261,Fashion,Women's Clothing,5092
+P00262,Grocery,Beverages,1673
+P00263,Electronics,Laptops,21002
+P00264,Grocery,Beverages,1824
+P00265,Home & Kitchen,Appliances,22867
+P00266,Electronics,Laptops,5827
+P00267,Grocery,Beverages,795
+P00268,Grocery,Personal Care,813
+P00269,Home & Kitchen,Decor,8254
+P00270,Grocery,Staples,574
+P00271,Fashion,Men's Clothing,3774
+P00272,Fashion,Watches,7013
+P00273,Books,Fiction,2381
+P00274,Fashion,Men's Clothing,5060
+P00275,Fashion,Women's Clothing,4276
+P00276,Books,Academic,1317
+P00277,Electronics,Laptops,33448
+P00278,Electronics,Accessories,12282
+P00279,Books,Fiction,1805
+P00280,Grocery,Snacks,1524
+P00281,Fashion,Footwear,7529
+P00282,Electronics,Accessories,74032
+P00283,Fashion,Women's Clothing,4589
+P00284,Fashion,Watches,988
+P00285,Fashion,Footwear,2432
+P00286,Fashion,Men's Clothing,4378
+P00287,Fashion,Footwear,2882
+P00288,Books,Fiction,1292
+P00289,Books,Non-Fiction,1211
+P00290,Electronics,Accessories,39104
+P00291,Electronics,Smartphones,48912
+P00292,Books,Fiction,209
+P00293,Fashion,Women's Clothing,2348
+P00294,Grocery,Beverages,313
+P00295,Home & Kitchen,Decor,15275
+P00296,Fashion,Women's Clothing,5611
+P00297,Electronics,Accessories,3583
+P00298,Home & Kitchen,Furniture,22256
+P00299,Home & Kitchen,Decor,8388
+P00300,Electronics,Cameras,19388
+P00301,Home & Kitchen,Appliances,18682
+P00302,Home & Kitchen,Decor,23033
+P00303,Electronics,Smartphones,71814
+P00304,Electronics,Smartphones,2109
+P00305,Fashion,Watches,6576
+P00306,Home & Kitchen,Decor,7681
+P00307,Fashion,Men's Clothing,2387
+P00308,Fashion,Men's Clothing,4035
+P00309,Electronics,Accessories,55847
+P00310,Fashion,Women's Clothing,966
+P00311,Books,Academic,2620
+P00312,Home & Kitchen,Furniture,3489
+P00313,Grocery,Personal Care,1949
+P00314,Home & Kitchen,Appliances,11161
+P00315,Fashion,Men's Clothing,6641
+P00316,Grocery,Staples,561
+P00317,Home & Kitchen,Cookware,10507
+P00318,Fashion,Women's Clothing,5235
+P00319,Home & Kitchen,Cookware,4820
+P00320,Grocery,Beverages,446
+P00321,Grocery,Snacks,1653
+P00322,Electronics,Audio,59405
+P00323,Home & Kitchen,Furniture,19023
+P00324,Home & Kitchen,Cookware,21700
+P00325,Electronics,Accessories,65771
+P00326,Grocery,Beverages,1045
+P00327,Home & Kitchen,Cookware,4100
+P00328,Home & Kitchen,Decor,7881
+P00329,Electronics,Laptops,40790
+P00330,Grocery,Snacks,297
+P00331,Electronics,Smartphones,68178
+P00332,Fashion,Footwear,7059
+P00333,Fashion,Watches,426
+P00334,Electronics,Cameras,15825
+P00335,Fashion,Women's Clothing,6697
+P00336,Home & Kitchen,Furniture,20949
+P00337,Home & Kitchen,Furniture,6350
+P00338,Fashion,Women's Clothing,3760
+P00339,Fashion,Watches,7361
+P00340,Home & Kitchen,Cookware,17660
+P00341,Electronics,Laptops,22281
+P00342,Home & Kitchen,Decor,20614
+P00343,Fashion,Watches,4140
+P00344,Books,Non-Fiction,1943
+P00345,Grocery,Beverages,274
+P00346,Electronics,Laptops,2930
+P00347,Electronics,Smartphones,30111
+P00348,Electronics,Audio,47726
+P00349,Grocery,Staples,380
+P00350,Fashion,Watches,6990
+P00351,Electronics,Laptops,47157
+P00352,Electronics,Laptops,28306
+P00353,Fashion,Watches,1475
+P00354,Fashion,Footwear,7177
+P00355,Books,Academic,2272
+P00356,Grocery,Snacks,1387
+P00357,Home & Kitchen,Furniture,7234
+P00358,Electronics,Smartphones,31232
+P00359,Fashion,Women's Clothing,1471
+P00360,Home & Kitchen,Appliances,14371
+P00361,Fashion,Footwear,7726
+P00362,Grocery,Beverages,1719
+P00363,Grocery,Staples,1305
+P00364,Grocery,Beverages,1365
+P00365,Grocery,Beverages,560
+P00366,Grocery,Personal Care,837
+P00367,Electronics,Cameras,2094
+P00368,Grocery,Beverages,1567
+P00369,Electronics,Smartphones,61522
+P00370,Fashion,Men's Clothing,269
+P00371,Home & Kitchen,Decor,22801
+P00372,Grocery,Snacks,1305
+P00373,Books,Academic,1843
+P00374,Electronics,Smartphones,1173
+P00375,Books,Fiction,832
+P00376,Grocery,Personal Care,1616
+P00377,Fashion,Footwear,2583
+P00378,Home & Kitchen,Decor,24181
+P00379,Books,Children's,1964
+P00380,Home & Kitchen,Cookware,10682
+P00381,Electronics,Audio,30430
+P00382,Electronics,Cameras,28222
+P00383,Electronics,Laptops,20534
+P00384,Home & Kitchen,Decor,11747
+P00385,Home & Kitchen,Cookware,16978
+P00386,Grocery,Personal Care,1654
+P00387,Grocery,Staples,812
+P00388,Grocery,Snacks,232
+P00389,Fashion,Footwear,4190
+P00390,Grocery,Personal Care,1335
+P00391,Books,Fiction,2546
+P00392,Home & Kitchen,Decor,9450
+P00393,Home & Kitchen,Decor,16236
+P00394,Electronics,Smartphones,48919
+P00395,Fashion,Footwear,2528
+P00396,Fashion,Footwear,1043
+P00397,Fashion,Watches,698
+P00398,Fashion,Footwear,7909
+P00399,Grocery,Personal Care,1292
+P00400,Home & Kitchen,Decor,21558
+P00401,Home & Kitchen,Furniture,6640
+P00402,Electronics,Laptops,57032
+P00403,Electronics,Audio,71444
+P00404,Fashion,Watches,2531
+P00405,Home & Kitchen,Furniture,3876
+P00406,Home & Kitchen,Decor,19172
+P00407,Fashion,Watches,7218
+P00408,Fashion,Men's Clothing,6482
+P00409,Electronics,Accessories,64288
+P00410,Electronics,Accessories,48203
+P00411,Electronics,Laptops,53012
+P00412,Fashion,Watches,5510
+P00413,Grocery,Beverages,1451
+P00414,Electronics,Audio,52604
+P00415,Fashion,Watches,7980
+P00416,Fashion,Watches,2224
+P00417,Fashion,Women's Clothing,3465
+P00418,Fashion,Watches,3229
+P00419,Fashion,Women's Clothing,475
+P00420,Home & Kitchen,Cookware,17746
+P00421,Home & Kitchen,Decor,14365
+P00422,Electronics,Cameras,15598
+P00423,Fashion,Footwear,5867
+P00424,Grocery,Staples,468
+P00425,Fashion,Women's Clothing,4370
+P00426,Electronics,Accessories,62899
+P00427,Fashion,Women's Clothing,7271
+P00428,Electronics,Laptops,53914
+P00429,Fashion,Women's Clothing,4157
+P00430,Fashion,Men's Clothing,6794
+P00431,Grocery,Staples,1686
+P00432,Fashion,Women's Clothing,7037
+P00433,Electronics,Audio,14900
+P00434,Grocery,Staples,222
+P00435,Grocery,Personal Care,282
+P00436,Electronics,Audio,21063
+P00437,Electronics,Cameras,64763
+P00438,Electronics,Laptops,61152
+P00439,Electronics,Audio,15054
+P00440,Books,Children's,2071
+P00441,Electronics,Audio,27183
+P00442,Home & Kitchen,Furniture,2369
+P00443,Fashion,Women's Clothing,2971
+P00444,Grocery,Staples,1496
+P00445,Fashion,Men's Clothing,2595
+P00446,Grocery,Personal Care,1583
+P00447,Grocery,Snacks,683
+P00448,Fashion,Women's Clothing,2232
+P00449,Electronics,Cameras,23877
+P00450,Books,Children's,2569
+P00451,Books,Fiction,1465
+P00452,Electronics,Cameras,69378
+P00453,Electronics,Laptops,46894
+P00454,Grocery,Staples,1890
+P00455,Books,Children's,307
+P00456,Grocery,Snacks,1782
+P00457,Home & Kitchen,Appliances,12587
+P00458,Fashion,Footwear,6966
+P00459,Electronics,Audio,30843
+P00460,Electronics,Cameras,24219
+P00461,Fashion,Watches,622
+P00462,Home & Kitchen,Appliances,21378
+P00463,Electronics,Laptops,11421
+P00464,Grocery,Personal Care,425
+P00465,Home & Kitchen,Appliances,10318
+P00466,Fashion,Footwear,4641
+P00467,Fashion,Women's Clothing,7272
+P00468,Fashion,Footwear,3769
+P00469,Grocery,Personal Care,653
+P00470,Home & Kitchen,Furniture,17934
+P00471,Books,Academic,2359
+P00472,Home & Kitchen,Appliances,12266
+P00473,Fashion,Men's Clothing,5122
+P00474,Electronics,Accessories,14558
+P00475,Electronics,Laptops,50943
+P00476,Electronics,Accessories,875
+P00477,Fashion,Footwear,2334
+P00478,Fashion,Footwear,6137
+P00479,Home & Kitchen,Cookware,4340
+P00480,Electronics,Laptops,61276
+P00481,Electronics,Laptops,39421
+P00482,Fashion,Women's Clothing,6156
+P00483,Home & Kitchen,Appliances,2338
+P00484,Electronics,Laptops,49351
+P00485,Electronics,Laptops,50862
+P00486,Grocery,Staples,825
+P00487,Fashion,Watches,7730
+P00488,Books,Children's,1212
+P00489,Fashion,Footwear,494
+P00490,Books,Children's,678
+P00491,Books,Children's,1182
+P00492,Electronics,Smartphones,1619
+P00493,Fashion,Women's Clothing,2713
+P00494,Fashion,Watches,6699
+P00495,Fashion,Watches,1686
+P00496,Electronics,Cameras,54301
+P00497,Home & Kitchen,Cookware,15723
+P00498,Electronics,Cameras,20281
+P00499,Home & Kitchen,Appliances,17384
+P00500,Grocery,Personal Care,708
+P00501,Fashion,Men's Clothing,1206
+P00502,Grocery,Beverages,786
+P00503,Books,Academic,1807
+P00504,Fashion,Watches,1503
+P00505,Electronics,Audio,65996
+P00506,Fashion,Women's Clothing,2526
+P00507,Fashion,Watches,2468
+P00508,Electronics,Laptops,58363
+P00509,Grocery,Beverages,1205
+P00510,Fashion,Watches,2835
+P00511,Grocery,Personal Care,1779
+P00512,Electronics,Smartphones,79640
+P00513,Home & Kitchen,Appliances,8667
+P00514,Fashion,Footwear,7231
+P00515,Grocery,Personal Care,738
+P00516,Electronics,Laptops,15480
+P00517,Home & Kitchen,Appliances,23710
+P00518,Fashion,Women's Clothing,7362
+P00519,Books,Fiction,1270
+P00520,Fashion,Watches,1982
+P00521,Electronics,Cameras,58310
+P00522,Grocery,Staples,288
+P00523,Grocery,Staples,1476
+P00524,Fashion,Watches,4800
+P00525,Home & Kitchen,Furniture,4349
+P00526,Fashion,Watches,3059
+P00527,Electronics,Laptops,52218
+P00528,Electronics,Smartphones,3470
+P00529,Home & Kitchen,Decor,21932
+P00530,Fashion,Watches,2195
+P00531,Grocery,Beverages,1083
+P00532,Electronics,Laptops,4363
+P00533,Fashion,Watches,7959
+P00534,Grocery,Beverages,1334
+P00535,Fashion,Footwear,5298
+P00536,Books,Children's,157
+P00537,Grocery,Beverages,1389
+P00538,Books,Children's,1309
+P00539,Electronics,Accessories,30730
+P00540,Books,Fiction,1687
+P00541,Grocery,Personal Care,965
+P00542,Fashion,Men's Clothing,1394
+P00543,Home & Kitchen,Cookware,17426
+P00544,Grocery,Beverages,1272
+P00545,Grocery,Snacks,623
+P00546,Electronics,Smartphones,53102
+P00547,Grocery,Staples,1335
+P00548,Fashion,Men's Clothing,2306
+P00549,Fashion,Women's Clothing,4924
+P00550,Books,Non-Fiction,498
+P00551,Electronics,Smartphones,66537
+P00552,Home & Kitchen,Furniture,2757
+P00553,Fashion,Women's Clothing,5806
+P00554,Electronics,Laptops,9860
+P00555,Home & Kitchen,Appliances,2983
+P00556,Grocery,Staples,239
+P00557,Fashion,Women's Clothing,1749
+P00558,Fashion,Watches,1758
+P00559,Fashion,Footwear,2251
+P00560,Electronics,Accessories,42090
+P00561,Home & Kitchen,Furniture,5162
+P00562,Electronics,Cameras,56423
+P00563,Home & Kitchen,Cookware,7489
+P00564,Home & Kitchen,Furniture,1129
+P00565,Books,Academic,1539
+P00566,Electronics,Smartphones,17012
+P00567,Fashion,Men's Clothing,7478
+P00568,Grocery,Beverages,681
+P00569,Home & Kitchen,Appliances,218
+P00570,Electronics,Audio,53895
+P00571,Home & Kitchen,Furniture,22686
+P00572,Electronics,Smartphones,66901
+P00573,Fashion,Women's Clothing,5418
+P00574,Electronics,Smartphones,12357
+P00575,Electronics,Accessories,7662
+P00576,Home & Kitchen,Cookware,12866
+P00577,Electronics,Cameras,58023
+P00578,Grocery,Staples,230
+P00579,Electronics,Accessories,20843
+P00580,Home & Kitchen,Appliances,5894
+P00581,Home & Kitchen,Decor,24718
+P00582,Grocery,Staples,613
+P00583,Home & Kitchen,Decor,11687
+P00584,Grocery,Staples,227
+P00585,Fashion,Watches,1563
+P00586,Fashion,Watches,508
+P00587,Grocery,Staples,602
+P00588,Fashion,Watches,6452
+P00589,Electronics,Accessories,25360
+P00590,Electronics,Audio,59214
+P00591,Grocery,Snacks,217
+P00592,Fashion,Watches,6114
+P00593,Books,Non-Fiction,233
+P00594,Fashion,Footwear,6846
+P00595,Electronics,Cameras,53237
+P00596,Fashion,Watches,1530
+P00597,Grocery,Personal Care,734
+P00598,Fashion,Watches,3614
+P00599,Grocery,Beverages,1255
+P00600,Electronics,Accessories,70339
+P00601,Home & Kitchen,Furniture,2460
+P00602,Books,Fiction,2463
+P00603,Electronics,Accessories,15038
+P00604,Grocery,Personal Care,820
+P00605,Electronics,Laptops,77004
+P00606,Electronics,Audio,22111
+P00607,Electronics,Cameras,31164
+P00608,Fashion,Watches,6835
+P00609,Home & Kitchen,Decor,20027
+P00610,Home & Kitchen,Cookware,16274
+P00611,Electronics,Audio,63854
+P00612,Fashion,Footwear,1082
+P00613,Electronics,Laptops,55846
+P00614,Fashion,Watches,657
+P00615,Grocery,Snacks,1887
+P00616,Home & Kitchen,Decor,4111
+P00617,Home & Kitchen,Decor,10488
+P00618,Electronics,Accessories,47465
+P00619,Grocery,Beverages,1610
+P00620,Fashion,Footwear,5491
+P00621,Fashion,Men's Clothing,1614
+P00622,Electronics,Cameras,30690
+P00623,Electronics,Laptops,29009
+P00624,Home & Kitchen,Cookware,866
+P00625,Electronics,Laptops,54915
+P00626,Home & Kitchen,Appliances,20988
+P00627,Electronics,Audio,77889
+P00628,Fashion,Women's Clothing,1219
+P00629,Home & Kitchen,Appliances,23022
+P00630,Electronics,Audio,9479
+P00631,Books,Children's,1293
+P00632,Grocery,Staples,121
+P00633,Electronics,Smartphones,21298
+P00634,Home & Kitchen,Decor,7959
+P00635,Books,Non-Fiction,2143
+P00636,Electronics,Audio,54395
+P00637,Home & Kitchen,Furniture,19223
+P00638,Books,Academic,1772
+P00639,Electronics,Cameras,45418
+P00640,Electronics,Accessories,78243
+P00641,Grocery,Personal Care,1350
+P00642,Books,Academic,1081
+P00643,Grocery,Personal Care,1061
+P00644,Fashion,Footwear,5665
+P00645,Electronics,Accessories,8072
+P00646,Books,Children's,2019
+P00647,Electronics,Accessories,20262
+P00648,Electronics,Accessories,27987
+P00649,Fashion,Footwear,5475
+P00650,Fashion,Women's Clothing,3202
+P00651,Electronics,Smartphones,67203
+P00652,Electronics,Laptops,44888
+P00653,Electronics,Accessories,79029
+P00654,Electronics,Smartphones,4838
+P00655,Books,Non-Fiction,1966
+P00656,Electronics,Laptops,12976
+P00657,Home & Kitchen,Furniture,21244
+P00658,Home & Kitchen,Appliances,21319
+P00659,Grocery,Beverages,1743
+P00660,Grocery,Beverages,177
+P00661,Fashion,Men's Clothing,4035
+P00662,Grocery,Snacks,505
+P00663,Home & Kitchen,Decor,24258
+P00664,Home & Kitchen,Furniture,1401
+P00665,Electronics,Accessories,18205
+P00666,Electronics,Laptops,51644
+P00667,Fashion,Footwear,3346
+P00668,Electronics,Smartphones,19182
+P00669,Books,Non-Fiction,1431
+P00670,Fashion,Footwear,6450
+P00671,Electronics,Smartphones,36124
+P00672,Grocery,Staples,1717
+P00673,Fashion,Footwear,3687
+P00674,Electronics,Laptops,9937
+P00675,Electronics,Audio,40041
+P00676,Electronics,Smartphones,52443
+P00677,Grocery,Staples,232
+P00678,Home & Kitchen,Decor,10397
+P00679,Books,Children's,1716
+P00680,Grocery,Personal Care,30
+P00681,Grocery,Personal Care,209
+P00682,Electronics,Accessories,48534
+P00683,Electronics,Laptops,49716
+P00684,Fashion,Men's Clothing,2576
+P00685,Home & Kitchen,Decor,12782
+P00686,Fashion,Watches,1813
+P00687,Electronics,Smartphones,53882
+P00688,Books,Fiction,2856
+P00689,Fashion,Watches,3034
+P00690,Electronics,Audio,4815
+P00691,Grocery,Staples,469
+P00692,Grocery,Staples,925
+P00693,Books,Non-Fiction,1724
+P00694,Home & Kitchen,Furniture,15551
+P00695,Electronics,Cameras,38114
+P00696,Fashion,Footwear,5326
+P00697,Fashion,Men's Clothing,5784
+P00698,Fashion,Women's Clothing,1089
+P00699,Electronics,Smartphones,60866
+P00700,Fashion,Watches,1930
+P00701,Fashion,Women's Clothing,2863
+P00702,Electronics,Cameras,66476
+P00703,Grocery,Personal Care,1930
+P00704,Electronics,Audio,23713
+P00705,Electronics,Audio,41998
+P00706,Books,Academic,2136
+P00707,Grocery,Personal Care,120
+P00708,Grocery,Beverages,353
+P00709,Fashion,Men's Clothing,1296
+P00710,Electronics,Cameras,57490
+P00711,Electronics,Smartphones,57864
+P00712,Electronics,Laptops,9003
+P00713,Grocery,Snacks,1233
+P00714,Electronics,Accessories,15410
+P00715,Fashion,Men's Clothing,7456
+P00716,Electronics,Laptops,31735
+P00717,Electronics,Laptops,36835
+P00718,Fashion,Women's Clothing,6295
+P00719,Grocery,Staples,1442
+P00720,Books,Non-Fiction,413
+P00721,Fashion,Men's Clothing,3433
+P00722,Grocery,Personal Care,1855
+P00723,Electronics,Audio,67079
+P00724,Grocery,Personal Care,1190
+P00725,Fashion,Footwear,6223
+P00726,Electronics,Smartphones,36315
+P00727,Fashion,Women's Clothing,5336
+P00728,Fashion,Footwear,7658
+P00729,Fashion,Footwear,1250
+P00730,Grocery,Personal Care,1013
+P00731,Electronics,Smartphones,42664
+P00732,Home & Kitchen,Furniture,1357
+P00733,Fashion,Footwear,7495
+P00734,Electronics,Cameras,67186
+P00735,Books,Non-Fiction,1501
+P00736,Fashion,Watches,4165
+P00737,Books,Fiction,2771
+P00738,Electronics,Cameras,14588
+P00739,Electronics,Laptops,46495
+P00740,Grocery,Snacks,1469
+P00741,Books,Academic,472
+P00742,Electronics,Laptops,31299
+P00743,Home & Kitchen,Cookware,15074
+P00744,Electronics,Smartphones,70674
+P00745,Home & Kitchen,Furniture,12677
+P00746,Grocery,Beverages,788
+P00747,Home & Kitchen,Decor,24491
+P00748,Fashion,Watches,7344
+P00749,Books,Fiction,2311
+P00750,Fashion,Watches,2334
+P00751,Fashion,Footwear,7716
+P00752,Books,Children's,2914
+P00753,Electronics,Accessories,36501
+P00754,Grocery,Personal Care,293
+P00755,Grocery,Personal Care,843
+P00756,Electronics,Smartphones,56151
+P00757,Fashion,Men's Clothing,6038
+P00758,Fashion,Watches,2532
+P00759,Home & Kitchen,Decor,17582
+P00760,Fashion,Footwear,6914
+P00761,Fashion,Men's Clothing,5753
+P00762,Grocery,Staples,1873
+P00763,Fashion,Women's Clothing,5134
+P00764,Fashion,Men's Clothing,1767
+P00765,Grocery,Beverages,1260
+P00766,Fashion,Men's Clothing,2467
+P00767,Electronics,Laptops,27951
+P00768,Home & Kitchen,Appliances,16858
+P00769,Electronics,Cameras,78516
+P00770,Books,Children's,1985
+P00771,Grocery,Beverages,1918
+P00772,Electronics,Laptops,40560
+P00773,Electronics,Cameras,55698
+P00774,Electronics,Audio,26129
+P00775,Home & Kitchen,Appliances,3018
+P00776,Home & Kitchen,Cookware,8903
+P00777,Electronics,Audio,38689
+P00778,Grocery,Beverages,1154
+P00779,Books,Children's,2035
+P00780,Home & Kitchen,Decor,10524
+P00781,Grocery,Beverages,1503
+P00782,Electronics,Smartphones,67390
+P00783,Books,Non-Fiction,929
+P00784,Home & Kitchen,Decor,21205
+P00785,Fashion,Watches,6505
+P00786,Fashion,Watches,4277
+P00787,Electronics,Accessories,2509
+P00788,Grocery,Personal Care,316
+P00789,Electronics,Cameras,53785
+P00790,Books,Fiction,680
+P00791,Home & Kitchen,Appliances,18792
+P00792,Fashion,Men's Clothing,1455
+P00793,Home & Kitchen,Decor,7272
+P00794,Fashion,Footwear,2154
+P00795,Home & Kitchen,Decor,21009
+P00796,Electronics,Smartphones,55402
+P00797,Fashion,Watches,2502
+P00798,Fashion,Men's Clothing,6078
+P00799,Electronics,Cameras,3068
+P00800,Electronics,Audio,65215
+P00801,Grocery,Personal Care,232
+P00802,Electronics,Smartphones,69509
+P00803,Grocery,Snacks,1487
+P00804,Fashion,Footwear,6946
+P00805,Electronics,Cameras,59522
+P00806,Home & Kitchen,Appliances,14098
+P00807,Fashion,Watches,2053
+P00808,Electronics,Smartphones,62852
+P00809,Home & Kitchen,Furniture,20001
+P00810,Fashion,Footwear,2444
+P00811,Home & Kitchen,Furniture,16663
+P00812,Grocery,Beverages,1855
+P00813,Home & Kitchen,Appliances,9781
+P00814,Fashion,Watches,7662
+P00815,Electronics,Smartphones,78078
+P00816,Electronics,Smartphones,25356
+P00817,Home & Kitchen,Furniture,13870
+P00818,Home & Kitchen,Furniture,472
+P00819,Electronics,Accessories,20482
+P00820,Books,Fiction,1900
+P00821,Books,Children's,2365
+P00822,Fashion,Men's Clothing,6987
+P00823,Electronics,Laptops,66484
+P00824,Fashion,Men's Clothing,7310
+P00825,Books,Children's,2143
+P00826,Grocery,Staples,1306
+P00827,Books,Non-Fiction,2290
+P00828,Electronics,Audio,43956
+P00829,Books,Academic,1850
+P00830,Grocery,Beverages,1559
+P00831,Electronics,Audio,77161
+P00832,Fashion,Watches,2495
+P00833,Home & Kitchen,Appliances,4559
+P00834,Electronics,Laptops,54771
+P00835,Grocery,Personal Care,398
+P00836,Grocery,Snacks,372
+P00837,Fashion,Watches,4208
+P00838,Grocery,Snacks,773
+P00839,Home & Kitchen,Furniture,10798
+P00840,Books,Fiction,1714
+P00841,Grocery,Beverages,286
+P00842,Grocery,Personal Care,1180
+P00843,Fashion,Footwear,2189
+P00844,Fashion,Footwear,2778
+P00845,Home & Kitchen,Cookware,17786
+P00846,Electronics,Accessories,12807
+P00847,Electronics,Accessories,12719
+P00848,Electronics,Cameras,26149
+P00849,Electronics,Cameras,4543
+P00850,Grocery,Personal Care,1867
+P00851,Books,Non-Fiction,1885
+P00852,Electronics,Audio,53120
+P00853,Electronics,Cameras,39499
+P00854,Books,Children's,1761
+P00855,Fashion,Footwear,2993
+P00856,Home & Kitchen,Decor,19633
+P00857,Books,Children's,1022
+P00858,Books,Children's,738
+P00859,Fashion,Footwear,1634
+P00860,Fashion,Women's Clothing,732
+P00861,Home & Kitchen,Furniture,12703
+P00862,Grocery,Personal Care,849
+P00863,Grocery,Snacks,1088
+P00864,Grocery,Personal Care,211
+P00865,Fashion,Men's Clothing,1925
+P00866,Fashion,Footwear,1864
+P00867,Grocery,Personal Care,684
+P00868,Electronics,Audio,29183
+P00869,Fashion,Watches,1904
+P00870,Grocery,Snacks,1513
+P00871,Grocery,Personal Care,1075
+P00872,Grocery,Staples,1993
+P00873,Grocery,Snacks,1653
+P00874,Fashion,Footwear,7853
+P00875,Grocery,Staples,47
+P00876,Electronics,Audio,53681
+P00877,Fashion,Men's Clothing,3676
+P00878,Grocery,Personal Care,1812
+P00879,Fashion,Men's Clothing,4987
+P00880,Electronics,Laptops,49880
+P00881,Grocery,Personal Care,1919
+P00882,Fashion,Women's Clothing,5524
+P00883,Electronics,Smartphones,26014
+P00884,Books,Children's,2756
+P00885,Books,Academic,2840
+P00886,Electronics,Accessories,31177
+P00887,Grocery,Personal Care,1094
+P00888,Fashion,Men's Clothing,2406
+P00889,Fashion,Footwear,7308
+P00890,Grocery,Personal Care,1650
+P00891,Fashion,Footwear,3125
+P00892,Home & Kitchen,Appliances,20100
+P00893,Grocery,Staples,908
+P00894,Fashion,Men's Clothing,542
+P00895,Fashion,Women's Clothing,7207
+P00896,Electronics,Accessories,15805
+P00897,Electronics,Laptops,41355
+P00898,Electronics,Smartphones,75883
+P00899,Electronics,Audio,13808
+P00900,Electronics,Smartphones,76524
+P00901,Electronics,Smartphones,43269
+P00902,Home & Kitchen,Appliances,332
+P00903,Fashion,Women's Clothing,711
+P00904,Home & Kitchen,Decor,16808
+P00905,Electronics,Smartphones,62000
+P00906,Home & Kitchen,Cookware,21644
+P00907,Electronics,Accessories,34225
+P00908,Fashion,Men's Clothing,1011
+P00909,Fashion,Footwear,4394
+P00910,Electronics,Accessories,56368
+P00911,Electronics,Accessories,78110
+P00912,Grocery,Personal Care,1557
+P00913,Electronics,Laptops,51902
+P00914,Home & Kitchen,Furniture,23503
+P00915,Electronics,Cameras,59878
+P00916,Books,Children's,546
+P00917,Home & Kitchen,Furniture,11562
+P00918,Fashion,Women's Clothing,2787
+P00919,Electronics,Laptops,7458
+P00920,Home & Kitchen,Cookware,1499
+P00921,Grocery,Personal Care,1595
+P00922,Fashion,Women's Clothing,4553
+P00923,Fashion,Watches,4685
+P00924,Grocery,Snacks,478
+P00925,Fashion,Women's Clothing,2217
+P00926,Fashion,Watches,3227
+P00927,Home & Kitchen,Decor,15811
+P00928,Books,Children's,1356
+P00929,Books,Academic,149
+P00930,Books,Fiction,2053
+P00931,Home & Kitchen,Appliances,13441
+P00932,Fashion,Footwear,5203
+P00933,Electronics,Cameras,49659
+P00934,Grocery,Snacks,1519
+P00935,Fashion,Men's Clothing,4768
+P00936,Grocery,Personal Care,1411
+P00937,Electronics,Accessories,6271
+P00938,Home & Kitchen,Decor,23212
+P00939,Electronics,Audio,8938
+P00940,Home & Kitchen,Decor,19704
+P00941,Books,Children's,974
+P00942,Books,Academic,351
+P00943,Fashion,Women's Clothing,6169
+P00944,Fashion,Watches,3614
+P00945,Home & Kitchen,Appliances,9969
+P00946,Grocery,Staples,1332
+P00947,Fashion,Women's Clothing,3897
+P00948,Books,Children's,1647
+P00949,Fashion,Footwear,1264
+P00950,Electronics,Cameras,31584
+P00951,Grocery,Beverages,1601
+P00952,Fashion,Footwear,4457
+P00953,Electronics,Smartphones,76831
+P00954,Electronics,Audio,11954
+P00955,Fashion,Footwear,5483
+P00956,Books,Fiction,2751
+P00957,Electronics,Cameras,63704
+P00958,Fashion,Men's Clothing,5889
+P00959,Fashion,Watches,3110
+P00960,Books,Academic,2853
+P00961,Fashion,Women's Clothing,4517
+P00962,Electronics,Cameras,44628
+P00963,Fashion,Footwear,1161
+P00964,Electronics,Laptops,900
+P00965,Fashion,Women's Clothing,4854
+P00966,Home & Kitchen,Decor,13498
+P00967,Grocery,Snacks,1896
+P00968,Electronics,Smartphones,24723
+P00969,Fashion,Men's Clothing,6037
+P00970,Home & Kitchen,Decor,22603
+P00971,Grocery,Personal Care,707
+P00972,Fashion,Men's Clothing,3419
+P00973,Fashion,Footwear,5238
+P00974,Grocery,Snacks,1040
+P00975,Electronics,Smartphones,13296
+P00976,Home & Kitchen,Decor,5637
+P00977,Home & Kitchen,Decor,20893
+P00978,Grocery,Personal Care,413
+P00979,Books,Non-Fiction,626
+P00980,Grocery,Snacks,1605
+P00981,Electronics,Laptops,68254
+P00982,Fashion,Footwear,6841
+P00983,Fashion,Footwear,7472
+P00984,Electronics,Laptops,79548
+P00985,Grocery,Beverages,939
+P00986,Fashion,Watches,4487
+P00987,Electronics,Accessories,23607
+P00988,Fashion,Footwear,725
+P00989,Home & Kitchen,Cookware,2590
+P00990,Fashion,Watches,5860
+P00991,Electronics,Smartphones,39232
+P00992,Grocery,Snacks,682
+P00993,Home & Kitchen,Furniture,3336
+P00994,Fashion,Watches,5313
+P00995,Electronics,Cameras,8454
+P00996,Books,Academic,1897
+P00997,Grocery,Staples,1803
+P00998,Books,Children's,1022
+P00999,Grocery,Staples,918
+P01000,Electronics,Accessories,49499
+P01001,Fashion,Men's Clothing,2584
+P01002,Electronics,Audio,46942
+P01003,Fashion,Footwear,4611
+P01004,Home & Kitchen,Decor,9208
+P01005,Grocery,Personal Care,653
+P01006,Fashion,Footwear,3541
+P01007,Home & Kitchen,Cookware,270
+P01008,Electronics,Laptops,20071
+P01009,Grocery,Personal Care,466
+P01010,Grocery,Staples,1487
+P01011,Books,Academic,1365
+P01012,Electronics,Cameras,67289
+P01013,Grocery,Snacks,295
+P01014,Electronics,Smartphones,58771
+P01015,Grocery,Personal Care,1759
+P01016,Grocery,Beverages,942
+P01017,Home & Kitchen,Appliances,9065
+P01018,Fashion,Men's Clothing,2583
+P01019,Grocery,Snacks,1117
+P01020,Electronics,Smartphones,14474
+P01021,Electronics,Smartphones,48727
+P01022,Home & Kitchen,Decor,21069
+P01023,Home & Kitchen,Appliances,21489
+P01024,Electronics,Smartphones,11630
+P01025,Electronics,Smartphones,43320
+P01026,Electronics,Laptops,21427
+P01027,Fashion,Women's Clothing,7113
+P01028,Electronics,Audio,6579
+P01029,Books,Children's,319
+P01030,Fashion,Footwear,345
+P01031,Electronics,Cameras,40821
+P01032,Home & Kitchen,Appliances,925
+P01033,Grocery,Snacks,1176
+P01034,Books,Children's,1275
+P01035,Books,Fiction,1811
+P01036,Home & Kitchen,Appliances,22672
+P01037,Grocery,Personal Care,1117
+P01038,Electronics,Accessories,43706
+P01039,Fashion,Men's Clothing,7990
+P01040,Fashion,Footwear,3882
+P01041,Books,Non-Fiction,2348
+P01042,Electronics,Audio,29583
+P01043,Fashion,Watches,1942
+P01044,Grocery,Snacks,1551
+P01045,Fashion,Footwear,5919
+P01046,Electronics,Smartphones,23634
+P01047,Home & Kitchen,Decor,11698
+P01048,Home & Kitchen,Decor,12834
+P01049,Electronics,Smartphones,32044
+P01050,Fashion,Watches,4117
+P01051,Home & Kitchen,Decor,16618
+P01052,Books,Non-Fiction,2559
+P01053,Electronics,Smartphones,64620
+P01054,Grocery,Personal Care,1240
+P01055,Home & Kitchen,Cookware,4271
+P01056,Electronics,Laptops,41374
+P01057,Home & Kitchen,Cookware,11239
+P01058,Home & Kitchen,Cookware,4602
+P01059,Books,Academic,2851
+P01060,Electronics,Laptops,52923
+P01061,Electronics,Laptops,77435
+P01062,Fashion,Women's Clothing,5940
+P01063,Home & Kitchen,Cookware,12165
+P01064,Home & Kitchen,Furniture,9066
+P01065,Grocery,Snacks,461
+P01066,Fashion,Women's Clothing,4004
+P01067,Electronics,Accessories,5497
+P01068,Fashion,Women's Clothing,3082
+P01069,Electronics,Cameras,3903
+P01070,Home & Kitchen,Cookware,5288
+P01071,Fashion,Footwear,7280
+P01072,Grocery,Snacks,742
+P01073,Grocery,Snacks,955
+P01074,Fashion,Footwear,3746
+P01075,Home & Kitchen,Furniture,1304
+P01076,Home & Kitchen,Cookware,24518
+P01077,Electronics,Smartphones,26264
+P01078,Fashion,Women's Clothing,5689
+P01079,Electronics,Smartphones,41949
+P01080,Electronics,Accessories,66457
+P01081,Home & Kitchen,Furniture,20897
+P01082,Electronics,Cameras,21434
+P01083,Home & Kitchen,Decor,13677
+P01084,Books,Fiction,604
+P01085,Electronics,Laptops,52467
+P01086,Fashion,Footwear,3049
+P01087,Grocery,Staples,1317
+P01088,Books,Non-Fiction,2523
+P01089,Electronics,Audio,41575
+P01090,Home & Kitchen,Cookware,9502
+P01091,Books,Fiction,2731
+P01092,Grocery,Personal Care,1047
+P01093,Electronics,Audio,28555
+P01094,Fashion,Footwear,6968
+P01095,Books,Fiction,1512
+P01096,Electronics,Audio,38828
+P01097,Fashion,Women's Clothing,4913
+P01098,Electronics,Cameras,40396
+P01099,Books,Fiction,503
+P01100,Grocery,Beverages,356
+P01101,Books,Children's,324
+P01102,Books,Fiction,1966
+P01103,Fashion,Men's Clothing,1850
+P01104,Books,Children's,642
+P01105,Electronics,Audio,29297
+P01106,Electronics,Audio,57526
+P01107,Home & Kitchen,Cookware,3091
+P01108,Fashion,Watches,1997
+P01109,Books,Children's,2452
+P01110,Home & Kitchen,Cookware,18048
+P01111,Grocery,Staples,979
+P01112,Books,Academic,1489
+P01113,Fashion,Women's Clothing,1843
+P01114,Electronics,Smartphones,13319
+P01115,Grocery,Snacks,1672
+P01116,Electronics,Accessories,2284
+P01117,Electronics,Cameras,3930
+P01118,Fashion,Footwear,4673
+P01119,Grocery,Personal Care,347
+P01120,Electronics,Cameras,50548
+P01121,Home & Kitchen,Decor,1124
+P01122,Grocery,Personal Care,1157
+P01123,Fashion,Watches,636
+P01124,Electronics,Smartphones,21032
+P01125,Home & Kitchen,Cookware,4624
+P01126,Fashion,Women's Clothing,7674
+P01127,Fashion,Watches,4875
+P01128,Fashion,Watches,4596
+P01129,Fashion,Women's Clothing,345
+P01130,Fashion,Watches,5812
+P01131,Grocery,Beverages,1334
+P01132,Fashion,Watches,2411
+P01133,Books,Children's,349
+P01134,Fashion,Watches,3704
+P01135,Electronics,Smartphones,79426
+P01136,Books,Academic,2615
+P01137,Fashion,Watches,1530
+P01138,Grocery,Beverages,1666
+P01139,Home & Kitchen,Decor,15081
+P01140,Electronics,Accessories,63672
+P01141,Fashion,Women's Clothing,6600
+P01142,Grocery,Personal Care,388
+P01143,Fashion,Men's Clothing,5345
+P01144,Electronics,Smartphones,21529
+P01145,Fashion,Men's Clothing,5849
+P01146,Electronics,Smartphones,27742
+P01147,Electronics,Audio,36551
+P01148,Home & Kitchen,Cookware,14826
+P01149,Electronics,Accessories,18770
+P01150,Grocery,Snacks,789
+P01151,Books,Fiction,415
+P01152,Electronics,Cameras,16587
+P01153,Electronics,Cameras,68838
+P01154,Books,Academic,1563
+P01155,Grocery,Staples,857
+P01156,Home & Kitchen,Appliances,3867
+P01157,Home & Kitchen,Decor,2543
+P01158,Grocery,Personal Care,967
+P01159,Books,Fiction,1883
+P01160,Electronics,Accessories,3603
+P01161,Fashion,Footwear,6314
+P01162,Grocery,Beverages,1022
+P01163,Grocery,Staples,262
+P01164,Electronics,Cameras,38838
+P01165,Home & Kitchen,Furniture,3389
+P01166,Home & Kitchen,Furniture,15146
+P01167,Electronics,Audio,66288
+P01168,Grocery,Snacks,1797
+P01169,Fashion,Men's Clothing,6244
+P01170,Fashion,Footwear,5264
+P01171,Grocery,Beverages,1058
+P01172,Grocery,Staples,760
+P01173,Grocery,Beverages,116
+P01174,Grocery,Snacks,1074
+P01175,Grocery,Personal Care,482
+P01176,Electronics,Cameras,64283
+P01177,Electronics,Cameras,63270
+P01178,Fashion,Men's Clothing,3174
+P01179,Grocery,Beverages,1190
+P01180,Fashion,Men's Clothing,5983
+P01181,Grocery,Snacks,1530
+P01182,Books,Academic,2120
+P01183,Home & Kitchen,Decor,2578
+P01184,Books,Academic,488
+P01185,Electronics,Accessories,38433
+P01186,Fashion,Men's Clothing,2014
+P01187,Fashion,Women's Clothing,6901
+P01188,Grocery,Snacks,588
+P01189,Books,Children's,2643
+P01190,Electronics,Smartphones,32987
+P01191,Electronics,Laptops,15527
+P01192,Grocery,Staples,1427
+P01193,Fashion,Men's Clothing,6357
+P01194,Electronics,Cameras,46450
+P01195,Books,Non-Fiction,442
+P01196,Electronics,Audio,1072
+P01197,Electronics,Audio,52536
+P01198,Fashion,Watches,5565
+P01199,Home & Kitchen,Decor,8000
+P01200,Grocery,Snacks,744
+P01201,Fashion,Footwear,1407
+P01202,Electronics,Accessories,52300
+P01203,Electronics,Accessories,20664
+P01204,Electronics,Cameras,68471
+P01205,Home & Kitchen,Cookware,10676
+P01206,Electronics,Smartphones,29569
+P01207,Home & Kitchen,Furniture,6998
+P01208,Electronics,Laptops,54608
+P01209,Books,Fiction,2289
+P01210,Grocery,Staples,844
+P01211,Fashion,Footwear,6314
+P01212,Fashion,Watches,3963
+P01213,Fashion,Watches,3088
+P01214,Electronics,Audio,44615
+P01215,Books,Children's,836
+P01216,Electronics,Audio,24879
+P01217,Electronics,Accessories,27876
+P01218,Fashion,Women's Clothing,5703
+P01219,Books,Fiction,2234
+P01220,Fashion,Footwear,6869
+P01221,Fashion,Watches,5342
+P01222,Books,Fiction,2269
+P01223,Home & Kitchen,Decor,11248
+P01224,Books,Children's,2128
+P01225,Electronics,Cameras,13363
+P01226,Home & Kitchen,Decor,5479
+P01227,Home & Kitchen,Cookware,10104
+P01228,Fashion,Women's Clothing,2840
+P01229,Fashion,Watches,4494
+P01230,Fashion,Men's Clothing,5637
+P01231,Grocery,Staples,1422
+P01232,Electronics,Laptops,13279
+P01233,Fashion,Footwear,7724
+P01234,Grocery,Snacks,40
+P01235,Grocery,Snacks,209
+P01236,Grocery,Beverages,316
+P01237,Grocery,Beverages,1854
+P01238,Electronics,Accessories,35113
+P01239,Electronics,Smartphones,5594
+P01240,Grocery,Staples,467
+P01241,Books,Children's,332
+P01242,Electronics,Audio,3502
+P01243,Grocery,Snacks,787
+P01244,Fashion,Women's Clothing,7879
+P01245,Electronics,Audio,49310
+P01246,Electronics,Cameras,41920
+P01247,Grocery,Snacks,1432
+P01248,Electronics,Cameras,47999
+P01249,Fashion,Footwear,7577
+P01250,Fashion,Men's Clothing,6598
+P01251,Grocery,Personal Care,1291
+P01252,Fashion,Men's Clothing,3624
+P01253,Fashion,Watches,1773
+P01254,Home & Kitchen,Cookware,16474
+P01255,Electronics,Audio,64411
+P01256,Home & Kitchen,Cookware,7257
+P01257,Fashion,Footwear,462
+P01258,Grocery,Personal Care,1211
+P01259,Fashion,Watches,4223
+P01260,Electronics,Audio,18918
+P01261,Electronics,Accessories,13974
+P01262,Fashion,Men's Clothing,481
+P01263,Grocery,Personal Care,501
+P01264,Home & Kitchen,Cookware,157
+P01265,Home & Kitchen,Decor,4063
+P01266,Home & Kitchen,Furniture,24921
+P01267,Electronics,Cameras,62484
+P01268,Electronics,Audio,28574
+P01269,Books,Academic,1246
+P01270,Home & Kitchen,Cookware,14714
+P01271,Electronics,Audio,41661
+P01272,Grocery,Staples,1482
+P01273,Fashion,Women's Clothing,735
+P01274,Electronics,Audio,7668
+P01275,Home & Kitchen,Appliances,7220
+P01276,Books,Fiction,2506
+P01277,Books,Children's,2754
+P01278,Fashion,Footwear,2915
+P01279,Home & Kitchen,Decor,24088
+P01280,Fashion,Women's Clothing,2357
+P01281,Books,Academic,1858
+P01282,Books,Non-Fiction,664
+P01283,Home & Kitchen,Cookware,23253
+P01284,Fashion,Men's Clothing,4684
+P01285,Books,Non-Fiction,857
+P01286,Electronics,Accessories,32867
+P01287,Electronics,Accessories,8964
+P01288,Grocery,Snacks,173
+P01289,Home & Kitchen,Furniture,7462
+P01290,Electronics,Smartphones,75788
+P01291,Home & Kitchen,Furniture,20103
+P01292,Books,Academic,2874
+P01293,Grocery,Snacks,1756
+P01294,Electronics,Laptops,65145
+P01295,Grocery,Snacks,1163
+P01296,Electronics,Smartphones,55688
+P01297,Fashion,Women's Clothing,7735
+P01298,Grocery,Personal Care,1139
+P01299,Fashion,Watches,6206
+P01300,Fashion,Watches,6108
+P01301,Grocery,Beverages,1924
+P01302,Fashion,Footwear,3779
+P01303,Electronics,Laptops,37127
+P01304,Fashion,Watches,4777
+P01305,Fashion,Men's Clothing,413
+P01306,Fashion,Watches,1107
+P01307,Electronics,Audio,5871
+P01308,Electronics,Accessories,50876
+P01309,Home & Kitchen,Decor,24856
+P01310,Grocery,Staples,1364
+P01311,Books,Academic,767
+P01312,Books,Fiction,1016
+P01313,Grocery,Beverages,1912
+P01314,Fashion,Watches,4229
+P01315,Electronics,Audio,1273
+P01316,Fashion,Men's Clothing,6691
+P01317,Home & Kitchen,Cookware,6319
+P01318,Books,Academic,370
+P01319,Grocery,Beverages,1357
+P01320,Grocery,Staples,1648
+P01321,Books,Fiction,320
+P01322,Electronics,Cameras,74546
+P01323,Grocery,Personal Care,969
+P01324,Grocery,Personal Care,726
+P01325,Electronics,Cameras,71598
+P01326,Home & Kitchen,Cookware,6837
+P01327,Electronics,Audio,75796
+P01328,Electronics,Cameras,54807
+P01329,Fashion,Women's Clothing,7297
+P01330,Fashion,Footwear,4092
+P01331,Fashion,Watches,1757
+P01332,Electronics,Cameras,58967
+P01333,Fashion,Women's Clothing,7007
+P01334,Fashion,Men's Clothing,1813
+P01335,Books,Children's,688
+P01336,Grocery,Staples,522
+P01337,Books,Academic,1894
+P01338,Home & Kitchen,Cookware,4026
+P01339,Home & Kitchen,Furniture,2801
+P01340,Home & Kitchen,Cookware,23017
+P01341,Electronics,Laptops,54227
+P01342,Fashion,Watches,5375
+P01343,Home & Kitchen,Appliances,15404
+P01344,Electronics,Cameras,61257
+P01345,Electronics,Cameras,43547
+P01346,Grocery,Snacks,113
+P01347,Books,Academic,1499
+P01348,Home & Kitchen,Decor,15574
+P01349,Home & Kitchen,Decor,12385
+P01350,Fashion,Watches,7886
+P01351,Grocery,Personal Care,1797
+P01352,Home & Kitchen,Decor,21739
+P01353,Home & Kitchen,Cookware,12347
+P01354,Grocery,Beverages,1969
+P01355,Home & Kitchen,Cookware,22913
+P01356,Electronics,Accessories,22781
+P01357,Books,Fiction,744
+P01358,Home & Kitchen,Appliances,14480
+P01359,Electronics,Accessories,4805
+P01360,Fashion,Footwear,6434
+P01361,Books,Non-Fiction,1487
+P01362,Fashion,Footwear,4418
+P01363,Electronics,Smartphones,40447
+P01364,Books,Non-Fiction,1242
+P01365,Fashion,Footwear,5553
+P01366,Fashion,Footwear,1563
+P01367,Grocery,Personal Care,1954
+P01368,Home & Kitchen,Furniture,17501
+P01369,Home & Kitchen,Cookware,11583
+P01370,Grocery,Beverages,1388
+P01371,Books,Children's,134
+P01372,Electronics,Accessories,17255
+P01373,Books,Non-Fiction,1785
+P01374,Electronics,Cameras,26372
+P01375,Home & Kitchen,Cookware,15378
+P01376,Electronics,Audio,21146
+P01377,Grocery,Beverages,1111
+P01378,Home & Kitchen,Cookware,6043
+P01379,Fashion,Footwear,3876
+P01380,Electronics,Accessories,49240
+P01381,Fashion,Women's Clothing,3054
+P01382,Electronics,Laptops,40152
+P01383,Grocery,Beverages,445
+P01384,Grocery,Personal Care,1410
+P01385,Electronics,Laptops,30099
+P01386,Grocery,Snacks,1713
+P01387,Electronics,Laptops,22731
+P01388,Electronics,Laptops,14801
+P01389,Fashion,Men's Clothing,1223
+P01390,Fashion,Footwear,4692
+P01391,Electronics,Smartphones,18671
+P01392,Grocery,Staples,227
+P01393,Home & Kitchen,Decor,6858
+P01394,Fashion,Women's Clothing,2039
+P01395,Home & Kitchen,Appliances,10891
+P01396,Electronics,Laptops,30780
+P01397,Fashion,Women's Clothing,1338
+P01398,Home & Kitchen,Furniture,23985
+P01399,Grocery,Snacks,325
+P01400,Home & Kitchen,Appliances,20171
+P01401,Grocery,Staples,378
+P01402,Electronics,Audio,40218
+P01403,Electronics,Accessories,79647
+P01404,Books,Non-Fiction,2563
+P01405,Fashion,Watches,4233
+P01406,Home & Kitchen,Decor,18056
+P01407,Grocery,Personal Care,1577
+P01408,Electronics,Laptops,24353
+P01409,Fashion,Women's Clothing,4585
+P01410,Fashion,Footwear,4629
+P01411,Home & Kitchen,Appliances,10050
+P01412,Books,Non-Fiction,2103
+P01413,Fashion,Footwear,668
+P01414,Electronics,Cameras,65199
+P01415,Fashion,Watches,3917
+P01416,Electronics,Audio,50574
+P01417,Fashion,Footwear,3709
+P01418,Electronics,Audio,27105
+P01419,Electronics,Cameras,29196
+P01420,Electronics,Cameras,45048
+P01421,Electronics,Audio,74582
+P01422,Fashion,Women's Clothing,2210
+P01423,Books,Non-Fiction,158
+P01424,Electronics,Cameras,10138
+P01425,Home & Kitchen,Furniture,21704
+P01426,Grocery,Beverages,1927
+P01427,Fashion,Men's Clothing,1752
+P01428,Books,Children's,1770
+P01429,Grocery,Beverages,1309
+P01430,Electronics,Cameras,14376
+P01431,Electronics,Smartphones,62535
+P01432,Fashion,Men's Clothing,2970
+P01433,Books,Academic,2052
+P01434,Electronics,Smartphones,39256
+P01435,Fashion,Women's Clothing,5945
+P01436,Grocery,Beverages,1783
+P01437,Fashion,Watches,3172
+P01438,Grocery,Snacks,594
+P01439,Grocery,Personal Care,1274
+P01440,Electronics,Smartphones,12015
+P01441,Fashion,Women's Clothing,1507
+P01442,Home & Kitchen,Appliances,20222
+P01443,Grocery,Beverages,695
+P01444,Fashion,Men's Clothing,5124
+P01445,Grocery,Personal Care,1156
+P01446,Grocery,Staples,1702
+P01447,Home & Kitchen,Appliances,1923
+P01448,Electronics,Cameras,13379
+P01449,Grocery,Beverages,480
+P01450,Grocery,Snacks,654
+P01451,Grocery,Personal Care,604
+P01452,Books,Fiction,876
+P01453,Fashion,Footwear,5228
+P01454,Home & Kitchen,Furniture,6891
+P01455,Home & Kitchen,Cookware,11206
+P01456,Electronics,Accessories,69093
+P01457,Electronics,Smartphones,29372
+P01458,Books,Academic,1802
+P01459,Fashion,Women's Clothing,7731
+P01460,Fashion,Women's Clothing,3429
+P01461,Grocery,Staples,392
+P01462,Fashion,Footwear,380
+P01463,Grocery,Personal Care,1464
+P01464,Fashion,Women's Clothing,5364
+P01465,Fashion,Watches,7535
+P01466,Grocery,Personal Care,1410
+P01467,Home & Kitchen,Cookware,2140
+P01468,Home & Kitchen,Cookware,4298
+P01469,Grocery,Staples,233
+P01470,Electronics,Accessories,5571
+P01471,Fashion,Women's Clothing,7054
+P01472,Grocery,Snacks,1110
+P01473,Fashion,Watches,406
+P01474,Books,Fiction,1251
+P01475,Electronics,Accessories,61317
+P01476,Home & Kitchen,Furniture,2219
+P01477,Fashion,Footwear,2247
+P01478,Books,Fiction,550
+P01479,Grocery,Staples,1320
+P01480,Grocery,Snacks,1774
+P01481,Home & Kitchen,Appliances,7838
+P01482,Grocery,Personal Care,517
+P01483,Electronics,Smartphones,23092
+P01484,Grocery,Staples,1264
+P01485,Home & Kitchen,Appliances,3412
+P01486,Home & Kitchen,Cookware,20987
+P01487,Books,Non-Fiction,183
+P01488,Fashion,Women's Clothing,5376
+P01489,Fashion,Footwear,6911
+P01490,Home & Kitchen,Appliances,8231
+P01491,Fashion,Men's Clothing,3914
+P01492,Home & Kitchen,Decor,24378
+P01493,Fashion,Women's Clothing,4417
+P01494,Electronics,Cameras,22157
+P01495,Grocery,Personal Care,906
+P01496,Fashion,Women's Clothing,7762
+P01497,Grocery,Staples,1404
+P01498,Grocery,Beverages,379
+P01499,Grocery,Staples,1207
+P01500,Grocery,Staples,1273
+P01501,Home & Kitchen,Appliances,15951
+P01502,Books,Children's,1736
+P01503,Fashion,Men's Clothing,4283
+P01504,Grocery,Personal Care,1290
+P01505,Electronics,Accessories,25118
+P01506,Books,Academic,1107
+P01507,Grocery,Staples,1093
+P01508,Electronics,Accessories,64474
+P01509,Fashion,Men's Clothing,3647
+P01510,Electronics,Accessories,29580
+P01511,Fashion,Women's Clothing,2226
+P01512,Electronics,Smartphones,24634
+P01513,Fashion,Footwear,201
+P01514,Electronics,Laptops,65323
+P01515,Home & Kitchen,Cookware,21221
+P01516,Home & Kitchen,Decor,8696
+P01517,Electronics,Cameras,37801
+P01518,Home & Kitchen,Decor,357
+P01519,Electronics,Laptops,73806
+P01520,Electronics,Audio,75783
+P01521,Electronics,Audio,38427
+P01522,Electronics,Laptops,1226
+P01523,Fashion,Women's Clothing,3557
+P01524,Books,Fiction,949
+P01525,Home & Kitchen,Appliances,5896
+P01526,Fashion,Men's Clothing,256
+P01527,Home & Kitchen,Decor,9435
+P01528,Home & Kitchen,Furniture,10382
+P01529,Electronics,Smartphones,45064
+P01530,Electronics,Laptops,31883
+P01531,Grocery,Staples,352
+P01532,Electronics,Accessories,59101
+P01533,Books,Academic,1230
+P01534,Electronics,Cameras,30579
+P01535,Home & Kitchen,Appliances,6685
+P01536,Home & Kitchen,Appliances,10643
+P01537,Fashion,Footwear,2069
+P01538,Electronics,Smartphones,61281
+P01539,Electronics,Laptops,72841
+P01540,Home & Kitchen,Decor,20218
+P01541,Fashion,Footwear,5540
+P01542,Fashion,Men's Clothing,2420
+P01543,Electronics,Accessories,59563
+P01544,Electronics,Accessories,64800
+P01545,Fashion,Men's Clothing,3421
+P01546,Grocery,Beverages,1711
+P01547,Electronics,Audio,15001
+P01548,Electronics,Audio,23523
+P01549,Electronics,Audio,51133
+P01550,Fashion,Watches,5018
+P01551,Fashion,Footwear,2323
+P01552,Fashion,Women's Clothing,5057
+P01553,Electronics,Audio,15429
+P01554,Grocery,Personal Care,68
+P01555,Electronics,Accessories,4446
+P01556,Home & Kitchen,Decor,13444
+P01557,Home & Kitchen,Cookware,4771
+P01558,Electronics,Audio,8631
+P01559,Fashion,Men's Clothing,2300
+P01560,Fashion,Watches,5779
+P01561,Books,Non-Fiction,2209
+P01562,Electronics,Cameras,19008
+P01563,Grocery,Beverages,327
+P01564,Fashion,Footwear,4050
+P01565,Home & Kitchen,Cookware,8647
+P01566,Electronics,Smartphones,25270
+P01567,Grocery,Beverages,1605
+P01568,Electronics,Accessories,79838
+P01569,Electronics,Accessories,37363
+P01570,Electronics,Audio,63418
+P01571,Fashion,Watches,2776
+P01572,Home & Kitchen,Furniture,21112
+P01573,Grocery,Personal Care,1905
+P01574,Electronics,Accessories,4955
+P01575,Grocery,Personal Care,1558
+P01576,Electronics,Smartphones,6175
+P01577,Books,Academic,1463
+P01578,Fashion,Watches,1699
+P01579,Fashion,Footwear,6764
+P01580,Fashion,Men's Clothing,6575
+P01581,Fashion,Men's Clothing,6660
+P01582,Books,Children's,454
+P01583,Electronics,Accessories,61568
+P01584,Grocery,Snacks,520
+P01585,Home & Kitchen,Cookware,19315
+P01586,Electronics,Laptops,35715
+P01587,Grocery,Personal Care,1483
+P01588,Grocery,Staples,96
+P01589,Fashion,Women's Clothing,3795
+P01590,Fashion,Men's Clothing,6214
+P01591,Grocery,Snacks,1057
+P01592,Home & Kitchen,Decor,24556
+P01593,Electronics,Accessories,38090
+P01594,Books,Children's,2076
+P01595,Home & Kitchen,Cookware,7906
+P01596,Grocery,Snacks,666
+P01597,Home & Kitchen,Appliances,15785
+P01598,Home & Kitchen,Decor,1198
+P01599,Fashion,Footwear,7512
+P01600,Fashion,Watches,4263
+P01601,Books,Fiction,835
+P01602,Home & Kitchen,Furniture,16017
+P01603,Books,Academic,676
+P01604,Electronics,Audio,71058
+P01605,Home & Kitchen,Decor,21612
+P01606,Home & Kitchen,Decor,5562
+P01607,Fashion,Women's Clothing,1081
+P01608,Home & Kitchen,Cookware,15878
+P01609,Electronics,Smartphones,26299
+P01610,Electronics,Laptops,13805
+P01611,Fashion,Watches,2354
+P01612,Electronics,Cameras,10012
+P01613,Grocery,Personal Care,1585
+P01614,Books,Fiction,126
+P01615,Fashion,Footwear,528
+P01616,Grocery,Beverages,1573
+P01617,Fashion,Watches,3907
+P01618,Electronics,Laptops,47899
+P01619,Books,Academic,1177
+P01620,Books,Children's,359
+P01621,Electronics,Laptops,13037
+P01622,Home & Kitchen,Cookware,2421
+P01623,Electronics,Laptops,49682
+P01624,Fashion,Men's Clothing,7461
+P01625,Fashion,Watches,7976
+P01626,Electronics,Laptops,50198
+P01627,Grocery,Personal Care,148
+P01628,Home & Kitchen,Cookware,16168
+P01629,Home & Kitchen,Decor,17578
+P01630,Grocery,Beverages,1589
+P01631,Electronics,Smartphones,10503
+P01632,Electronics,Cameras,18998
+P01633,Fashion,Footwear,7857
+P01634,Grocery,Beverages,1583
+P01635,Grocery,Snacks,1521
+P01636,Fashion,Women's Clothing,6483
+P01637,Electronics,Accessories,35378
+P01638,Electronics,Cameras,15841
+P01639,Home & Kitchen,Furniture,17278
+P01640,Electronics,Smartphones,28974
+P01641,Books,Non-Fiction,491
+P01642,Fashion,Women's Clothing,7210
+P01643,Grocery,Snacks,986
+P01644,Electronics,Audio,35281
+P01645,Fashion,Men's Clothing,2499
+P01646,Home & Kitchen,Decor,17471
+P01647,Books,Academic,650
+P01648,Home & Kitchen,Appliances,4788
+P01649,Home & Kitchen,Furniture,8789
+P01650,Home & Kitchen,Cookware,18350
+P01651,Electronics,Smartphones,22388
+P01652,Home & Kitchen,Decor,20809
+P01653,Grocery,Personal Care,1832
+P01654,Electronics,Audio,44584
+P01655,Electronics,Cameras,5976
+P01656,Electronics,Audio,12825
+P01657,Grocery,Personal Care,612
+P01658,Grocery,Staples,549
+P01659,Electronics,Laptops,29685
+P01660,Grocery,Beverages,31
+P01661,Fashion,Men's Clothing,5177
+P01662,Electronics,Audio,30634
+P01663,Books,Children's,638
+P01664,Electronics,Cameras,1988
+P01665,Grocery,Beverages,1718
+P01666,Grocery,Snacks,1559
+P01667,Fashion,Women's Clothing,2063
+P01668,Electronics,Laptops,57820
+P01669,Fashion,Watches,5335
+P01670,Fashion,Men's Clothing,4404
+P01671,Fashion,Men's Clothing,3222
+P01672,Electronics,Cameras,42164
+P01673,Electronics,Laptops,40055
+P01674,Electronics,Accessories,44342
+P01675,Grocery,Snacks,1238
+P01676,Grocery,Snacks,666
+P01677,Books,Academic,1959
+P01678,Electronics,Laptops,9282
+P01679,Fashion,Footwear,4281
+P01680,Grocery,Beverages,161
+P01681,Books,Fiction,2522
+P01682,Fashion,Footwear,1212
+P01683,Fashion,Women's Clothing,7013
+P01684,Fashion,Footwear,1776
+P01685,Fashion,Women's Clothing,3986
+P01686,Electronics,Accessories,8351
+P01687,Fashion,Men's Clothing,4654
+P01688,Grocery,Snacks,1678
+P01689,Electronics,Cameras,52805
+P01690,Home & Kitchen,Furniture,13217
+P01691,Home & Kitchen,Furniture,17578
+P01692,Grocery,Beverages,534
+P01693,Home & Kitchen,Cookware,9254
+P01694,Fashion,Men's Clothing,4926
+P01695,Electronics,Smartphones,6134
+P01696,Home & Kitchen,Cookware,23266
+P01697,Home & Kitchen,Decor,5337
+P01698,Home & Kitchen,Furniture,12361
+P01699,Electronics,Cameras,71237
+P01700,Fashion,Watches,824
+P01701,Fashion,Men's Clothing,6448
+P01702,Electronics,Audio,5326
+P01703,Home & Kitchen,Decor,14017
+P01704,Electronics,Accessories,75090
+P01705,Electronics,Audio,33568
+P01706,Electronics,Laptops,29841
+P01707,Grocery,Personal Care,1426
+P01708,Books,Academic,2489
+P01709,Fashion,Watches,2273
+P01710,Home & Kitchen,Cookware,1160
+P01711,Home & Kitchen,Cookware,1899
+P01712,Home & Kitchen,Furniture,7702
+P01713,Electronics,Audio,75596
+P01714,Fashion,Watches,7693
+P01715,Grocery,Personal Care,221
+P01716,Fashion,Watches,5856
+P01717,Grocery,Snacks,1077
+P01718,Fashion,Footwear,1678
+P01719,Fashion,Women's Clothing,4304
+P01720,Home & Kitchen,Decor,6332
+P01721,Electronics,Accessories,50213
+P01722,Home & Kitchen,Decor,4596
+P01723,Grocery,Personal Care,1506
+P01724,Fashion,Women's Clothing,3438
+P01725,Fashion,Footwear,1023
+P01726,Books,Fiction,1952
+P01727,Grocery,Beverages,735
+P01728,Grocery,Snacks,934
+P01729,Home & Kitchen,Appliances,16681
+P01730,Fashion,Men's Clothing,7086
+P01731,Fashion,Footwear,1501
+P01732,Electronics,Audio,14842
+P01733,Fashion,Women's Clothing,3332
+P01734,Books,Non-Fiction,1079
+P01735,Books,Fiction,559
+P01736,Fashion,Men's Clothing,7988
+P01737,Electronics,Accessories,35719
+P01738,Home & Kitchen,Appliances,8905
+P01739,Books,Children's,1014
+P01740,Electronics,Laptops,79321
+P01741,Home & Kitchen,Furniture,8218
+P01742,Fashion,Footwear,3099
+P01743,Electronics,Cameras,61253
+P01744,Books,Academic,1349
+P01745,Electronics,Laptops,58206
+P01746,Electronics,Laptops,48869
+P01747,Books,Children's,1733
+P01748,Electronics,Cameras,17507
+P01749,Grocery,Personal Care,1538
+P01750,Books,Children's,2786
+P01751,Books,Academic,837
+P01752,Electronics,Audio,76951
+P01753,Fashion,Men's Clothing,3690
+P01754,Electronics,Smartphones,32069
+P01755,Electronics,Audio,58242
+P01756,Books,Children's,2951
+P01757,Fashion,Women's Clothing,4847
+P01758,Electronics,Laptops,41650
+P01759,Grocery,Beverages,1987
+P01760,Electronics,Smartphones,24496
+P01761,Books,Fiction,971
+P01762,Grocery,Beverages,467
+P01763,Fashion,Watches,6875
+P01764,Fashion,Watches,369
+P01765,Books,Academic,2484
+P01766,Home & Kitchen,Cookware,17290
+P01767,Books,Fiction,900
+P01768,Fashion,Watches,4519
+P01769,Home & Kitchen,Furniture,13975
+P01770,Fashion,Footwear,7422
+P01771,Grocery,Beverages,335
+P01772,Fashion,Watches,494
+P01773,Grocery,Beverages,731
+P01774,Fashion,Men's Clothing,1280
+P01775,Electronics,Audio,29683
+P01776,Electronics,Smartphones,46781
+P01777,Books,Non-Fiction,776
+P01778,Fashion,Footwear,6526
+P01779,Books,Academic,367
+P01780,Grocery,Staples,818
+P01781,Electronics,Audio,73472
+P01782,Electronics,Cameras,58874
+P01783,Home & Kitchen,Appliances,18131
+P01784,Electronics,Cameras,63536
+P01785,Electronics,Accessories,14246
+P01786,Electronics,Cameras,66144
+P01787,Fashion,Men's Clothing,5579
+P01788,Electronics,Laptops,46310
+P01789,Electronics,Smartphones,72659
+P01790,Home & Kitchen,Appliances,14941
+P01791,Books,Academic,971
+P01792,Books,Academic,2219
+P01793,Home & Kitchen,Decor,14471
+P01794,Electronics,Laptops,6739
+P01795,Electronics,Laptops,4946
+P01796,Electronics,Cameras,61787
+P01797,Grocery,Personal Care,715
+P01798,Home & Kitchen,Cookware,20456
+P01799,Grocery,Staples,851
+P01800,Fashion,Men's Clothing,6969
+P01801,Books,Non-Fiction,2622
+P01802,Fashion,Footwear,1968
+P01803,Electronics,Audio,52396
+P01804,Grocery,Personal Care,1217
+P01805,Electronics,Laptops,1409
+P01806,Electronics,Cameras,62305
+P01807,Grocery,Snacks,783
+P01808,Grocery,Beverages,630
+P01809,Electronics,Cameras,3774
+P01810,Grocery,Beverages,1094
+P01811,Home & Kitchen,Furniture,3867
+P01812,Home & Kitchen,Appliances,12635
+P01813,Fashion,Footwear,1922
+P01814,Electronics,Cameras,4516
+P01815,Electronics,Accessories,58660
+P01816,Home & Kitchen,Appliances,9913
+P01817,Electronics,Cameras,35926
+P01818,Home & Kitchen,Decor,14939
+P01819,Fashion,Watches,4137
+P01820,Fashion,Men's Clothing,1932
+P01821,Fashion,Footwear,2460
+P01822,Electronics,Accessories,31849
+P01823,Home & Kitchen,Cookware,3435
+P01824,Fashion,Watches,844
+P01825,Grocery,Beverages,1156
+P01826,Electronics,Smartphones,4420
+P01827,Fashion,Watches,3314
+P01828,Electronics,Accessories,7264
+P01829,Fashion,Women's Clothing,4114
+P01830,Electronics,Smartphones,62019
+P01831,Electronics,Cameras,10865
+P01832,Home & Kitchen,Appliances,3502
+P01833,Fashion,Women's Clothing,4563
+P01834,Home & Kitchen,Appliances,12273
+P01835,Home & Kitchen,Furniture,16358
+P01836,Fashion,Women's Clothing,1730
+P01837,Grocery,Staples,1244
+P01838,Grocery,Staples,1479
+P01839,Grocery,Snacks,515
+P01840,Grocery,Staples,171
+P01841,Grocery,Personal Care,1560
+P01842,Fashion,Footwear,2723
+P01843,Books,Children's,2780
+P01844,Grocery,Snacks,207
+P01845,Fashion,Watches,5440
+P01846,Fashion,Women's Clothing,3504
+P01847,Fashion,Watches,2917
+P01848,Electronics,Cameras,25999
+P01849,Books,Children's,1822
+P01850,Fashion,Men's Clothing,389
+P01851,Home & Kitchen,Furniture,7725
+P01852,Electronics,Cameras,79018
+P01853,Grocery,Snacks,1244
+P01854,Fashion,Footwear,7923
+P01855,Home & Kitchen,Appliances,11139
+P01856,Books,Children's,523
+P01857,Grocery,Beverages,118
+P01858,Electronics,Laptops,65545
+P01859,Fashion,Watches,1758
+P01860,Electronics,Cameras,30219
+P01861,Fashion,Footwear,6110
+P01862,Fashion,Footwear,6852
+P01863,Fashion,Footwear,1076
+P01864,Fashion,Watches,625
+P01865,Grocery,Snacks,1899
+P01866,Electronics,Laptops,74175
+P01867,Electronics,Accessories,69566
+P01868,Home & Kitchen,Decor,20530
+P01869,Home & Kitchen,Furniture,491
+P01870,Grocery,Beverages,1397
+P01871,Home & Kitchen,Decor,2915
+P01872,Fashion,Women's Clothing,3710
+P01873,Electronics,Audio,2308
+P01874,Electronics,Accessories,17116
+P01875,Fashion,Watches,4396
+P01876,Home & Kitchen,Decor,5214
+P01877,Electronics,Cameras,42100
+P01878,Electronics,Accessories,21063
+P01879,Fashion,Footwear,3968
+P01880,Electronics,Smartphones,58529
+P01881,Grocery,Personal Care,308
+P01882,Electronics,Audio,56051
+P01883,Electronics,Accessories,1962
+P01884,Books,Non-Fiction,1791
+P01885,Grocery,Beverages,1337
+P01886,Electronics,Smartphones,3957
+P01887,Grocery,Beverages,366
+P01888,Electronics,Smartphones,23079
+P01889,Home & Kitchen,Decor,19761
+P01890,Home & Kitchen,Appliances,15506
+P01891,Fashion,Footwear,614
+P01892,Fashion,Watches,5307
+P01893,Fashion,Women's Clothing,265
+P01894,Electronics,Laptops,31397
+P01895,Grocery,Beverages,564
+P01896,Fashion,Footwear,6846
+P01897,Electronics,Laptops,52978
+P01898,Grocery,Staples,1733
+P01899,Fashion,Women's Clothing,349
+P01900,Electronics,Laptops,69459
+P01901,Home & Kitchen,Cookware,16288
+P01902,Electronics,Cameras,18878
+P01903,Fashion,Women's Clothing,3169
+P01904,Grocery,Snacks,1954
+P01905,Home & Kitchen,Cookware,2625
+P01906,Fashion,Men's Clothing,2661
+P01907,Electronics,Audio,69408
+P01908,Electronics,Accessories,42759
+P01909,Electronics,Audio,15320
+P01910,Home & Kitchen,Cookware,12591
+P01911,Home & Kitchen,Furniture,11531
+P01912,Grocery,Staples,1855
+P01913,Books,Non-Fiction,162
+P01914,Fashion,Watches,2130
+P01915,Fashion,Watches,4329
+P01916,Home & Kitchen,Appliances,8439
+P01917,Electronics,Laptops,31775
+P01918,Electronics,Accessories,12982
+P01919,Home & Kitchen,Decor,8767
+P01920,Grocery,Beverages,723
+P01921,Home & Kitchen,Cookware,15687
+P01922,Grocery,Staples,495
+P01923,Grocery,Snacks,1957
+P01924,Grocery,Staples,1017
+P01925,Grocery,Snacks,1629
+P01926,Electronics,Audio,50250
+P01927,Electronics,Laptops,70355
+P01928,Fashion,Men's Clothing,7145
+P01929,Grocery,Personal Care,1635
+P01930,Fashion,Watches,430
+P01931,Home & Kitchen,Furniture,13940
+P01932,Electronics,Accessories,22775
+P01933,Home & Kitchen,Cookware,3920
+P01934,Grocery,Staples,1797
+P01935,Electronics,Accessories,52726
+P01936,Electronics,Cameras,7480
+P01937,Home & Kitchen,Cookware,9648
+P01938,Electronics,Accessories,76868
+P01939,Electronics,Accessories,49190
+P01940,Home & Kitchen,Appliances,15694
+P01941,Fashion,Watches,1974
+P01942,Grocery,Snacks,504
+P01943,Electronics,Cameras,12644
+P01944,Grocery,Personal Care,1942
+P01945,Grocery,Beverages,1822
+P01946,Grocery,Snacks,679
+P01947,Home & Kitchen,Cookware,13625
+P01948,Home & Kitchen,Decor,5288
+P01949,Fashion,Women's Clothing,1281
+P01950,Grocery,Personal Care,1096
+P01951,Electronics,Accessories,64108
+P01952,Fashion,Women's Clothing,6928
+P01953,Grocery,Staples,639
+P01954,Grocery,Beverages,1419
+P01955,Electronics,Accessories,42143
+P01956,Home & Kitchen,Furniture,3511
+P01957,Grocery,Snacks,1992
+P01958,Fashion,Watches,7811
+P01959,Electronics,Audio,12040
+P01960,Grocery,Beverages,1868
+P01961,Grocery,Staples,1837
+P01962,Books,Children's,1021
+P01963,Electronics,Smartphones,44809
+P01964,Fashion,Women's Clothing,7599
+P01965,Books,Non-Fiction,443
+P01966,Books,Children's,1021
+P01967,Fashion,Footwear,7061
+P01968,Grocery,Snacks,1462
+P01969,Books,Fiction,2320
+P01970,Electronics,Accessories,70470
+P01971,Books,Children's,1301
+P01972,Books,Non-Fiction,1293
+P01973,Books,Children's,1385
+P01974,Books,Academic,2808
+P01975,Fashion,Footwear,7174
+P01976,Electronics,Accessories,74693
+P01977,Fashion,Men's Clothing,2336
+P01978,Fashion,Footwear,6277
+P01979,Fashion,Footwear,1033
+P01980,Grocery,Snacks,394
+P01981,Home & Kitchen,Cookware,19097
+P01982,Electronics,Smartphones,49153
+P01983,Fashion,Watches,2282
+P01984,Fashion,Footwear,4623
+P01985,Home & Kitchen,Furniture,5888
+P01986,Fashion,Watches,2011
+P01987,Electronics,Cameras,55147
+P01988,Fashion,Footwear,3002
+P01989,Fashion,Men's Clothing,5568
+P01990,Home & Kitchen,Decor,11994
+P01991,Grocery,Beverages,1020
+P01992,Fashion,Women's Clothing,4917
+P01993,Grocery,Snacks,1433
+P01994,Grocery,Snacks,767
+P01995,Grocery,Personal Care,1709
+P01996,Books,Non-Fiction,1525
+P01997,Home & Kitchen,Appliances,3567
+P01998,Fashion,Footwear,1707
+P01999,Home & Kitchen,Appliances,951
+P02000,Home & Kitchen,Appliances,19149
+P02001,Home & Kitchen,Furniture,523
+P02002,Electronics,Laptops,21954
+P02003,Grocery,Staples,844
+P02004,Fashion,Watches,5990
+P02005,Home & Kitchen,Decor,24708
+P02006,Fashion,Men's Clothing,6111
+P02007,Books,Fiction,292
+P02008,Grocery,Staples,1856
+P02009,Grocery,Snacks,1972
+P02010,Home & Kitchen,Furniture,21698
+P02011,Books,Non-Fiction,1521
+P02012,Fashion,Footwear,2734
+P02013,Electronics,Cameras,36875
+P02014,Grocery,Personal Care,516
+P02015,Electronics,Smartphones,32687
+P02016,Grocery,Snacks,112
+P02017,Fashion,Watches,5936
+P02018,Fashion,Men's Clothing,3167
+P02019,Electronics,Cameras,25375
+P02020,Grocery,Personal Care,1235
+P02021,Grocery,Staples,1493
+P02022,Books,Children's,1822
+P02023,Fashion,Women's Clothing,4297
+P02024,Fashion,Watches,7031
+P02025,Electronics,Audio,63060
+P02026,Grocery,Staples,1056
+P02027,Electronics,Cameras,36403
+P02028,Books,Children's,2498
+P02029,Books,Academic,223
+P02030,Grocery,Staples,1992
+P02031,Fashion,Watches,4246
+P02032,Fashion,Footwear,3286
+P02033,Electronics,Smartphones,58946
+P02034,Electronics,Laptops,44837
+P02035,Fashion,Men's Clothing,4226
+P02036,Fashion,Men's Clothing,5119
+P02037,Fashion,Watches,585
+P02038,Home & Kitchen,Decor,7386
+P02039,Fashion,Men's Clothing,3305
+P02040,Books,Fiction,983
+P02041,Electronics,Smartphones,66296
+P02042,Electronics,Audio,37177
+P02043,Fashion,Men's Clothing,3495
+P02044,Home & Kitchen,Decor,15386
+P02045,Electronics,Audio,4836
+P02046,Fashion,Women's Clothing,4232
+P02047,Electronics,Laptops,11808
+P02048,Home & Kitchen,Appliances,20773
+P02049,Fashion,Footwear,3723
+P02050,Fashion,Watches,5837
+P02051,Home & Kitchen,Appliances,2962
+P02052,Electronics,Audio,62409
+P02053,Books,Children's,2820
+P02054,Fashion,Men's Clothing,5630
+P02055,Fashion,Women's Clothing,1255
+P02056,Electronics,Accessories,33378
+P02057,Fashion,Men's Clothing,3717
+P02058,Books,Non-Fiction,619
+P02059,Fashion,Watches,4804
+P02060,Fashion,Women's Clothing,5759
+P02061,Electronics,Laptops,16554
+P02062,Fashion,Men's Clothing,3747
+P02063,Electronics,Smartphones,20382
+P02064,Electronics,Accessories,55492
+P02065,Fashion,Watches,7276
+P02066,Electronics,Cameras,63821
+P02067,Fashion,Watches,5803
+P02068,Fashion,Watches,1164
+P02069,Electronics,Laptops,9576
+P02070,Home & Kitchen,Furniture,11318
+P02071,Books,Children's,1153
+P02072,Electronics,Accessories,42143
+P02073,Electronics,Laptops,31035
+P02074,Fashion,Footwear,6370
+P02075,Grocery,Snacks,1038
+P02076,Grocery,Staples,1901
+P02077,Grocery,Staples,776
+P02078,Grocery,Personal Care,780
+P02079,Fashion,Men's Clothing,6192
+P02080,Home & Kitchen,Furniture,22819
+P02081,Books,Non-Fiction,1740
+P02082,Grocery,Staples,1329
+P02083,Electronics,Smartphones,12432
+P02084,Grocery,Staples,1742
+P02085,Home & Kitchen,Appliances,4595
+P02086,Home & Kitchen,Cookware,17844
+P02087,Grocery,Snacks,857
+P02088,Home & Kitchen,Cookware,7842
+P02089,Books,Children's,2329
+P02090,Fashion,Watches,3681
+P02091,Grocery,Snacks,1264
+P02092,Fashion,Women's Clothing,1117
+P02093,Grocery,Staples,289
+P02094,Grocery,Snacks,430
+P02095,Electronics,Cameras,49994
+P02096,Grocery,Beverages,529
+P02097,Home & Kitchen,Furniture,11547
+P02098,Electronics,Cameras,68505
+P02099,Electronics,Accessories,43708
+P02100,Grocery,Beverages,41
+P02101,Electronics,Laptops,70675
+P02102,Home & Kitchen,Decor,6061
+P02103,Grocery,Snacks,1190
+P02104,Electronics,Cameras,38319
+P02105,Home & Kitchen,Furniture,10342
+P02106,Fashion,Watches,819
+P02107,Fashion,Footwear,4881
+P02108,Fashion,Footwear,2109
+P02109,Fashion,Men's Clothing,4469
+P02110,Fashion,Women's Clothing,5034
+P02111,Electronics,Audio,44825
+P02112,Home & Kitchen,Appliances,20658
+P02113,Home & Kitchen,Cookware,1366
+P02114,Home & Kitchen,Decor,3834
+P02115,Grocery,Personal Care,1317
+P02116,Fashion,Footwear,486
+P02117,Grocery,Personal Care,1712
+P02118,Electronics,Audio,53526
+P02119,Electronics,Laptops,67122
+P02120,Electronics,Accessories,24226
+P02121,Home & Kitchen,Appliances,23022
+P02122,Home & Kitchen,Furniture,1368
+P02123,Fashion,Watches,3452
+P02124,Fashion,Women's Clothing,1590
+P02125,Books,Non-Fiction,2049
+P02126,Grocery,Beverages,1234
+P02127,Grocery,Snacks,1392
+P02128,Fashion,Watches,4841
+P02129,Fashion,Men's Clothing,6341
+P02130,Electronics,Cameras,14605
+P02131,Electronics,Audio,36699
+P02132,Books,Children's,1779
+P02133,Books,Non-Fiction,2801
+P02134,Electronics,Audio,7904
+P02135,Electronics,Laptops,24294
+P02136,Fashion,Footwear,3075
+P02137,Books,Non-Fiction,1199
+P02138,Fashion,Footwear,728
+P02139,Home & Kitchen,Cookware,10769
+P02140,Home & Kitchen,Appliances,13829
+P02141,Books,Academic,949
+P02142,Fashion,Men's Clothing,1249
+P02143,Books,Non-Fiction,2114
+P02144,Home & Kitchen,Cookware,6969
+P02145,Home & Kitchen,Decor,13247
+P02146,Home & Kitchen,Appliances,13187
+P02147,Fashion,Men's Clothing,5627
+P02148,Books,Fiction,1875
+P02149,Home & Kitchen,Furniture,2866
+P02150,Grocery,Snacks,1468
+P02151,Fashion,Watches,5106
+P02152,Electronics,Laptops,78982
+P02153,Home & Kitchen,Decor,12169
+P02154,Fashion,Footwear,5572
+P02155,Fashion,Men's Clothing,7484
+P02156,Electronics,Laptops,78909
+P02157,Grocery,Snacks,596
+P02158,Home & Kitchen,Cookware,15280
+P02159,Fashion,Watches,2669
+P02160,Books,Non-Fiction,1624
+P02161,Fashion,Women's Clothing,7961
+P02162,Books,Children's,1126
+P02163,Grocery,Snacks,286
+P02164,Fashion,Footwear,4589
+P02165,Books,Academic,1607
+P02166,Grocery,Personal Care,1275
+P02167,Home & Kitchen,Appliances,12389
+P02168,Fashion,Footwear,1603
+P02169,Electronics,Accessories,48948
+P02170,Books,Academic,2155
+P02171,Fashion,Footwear,7838
+P02172,Books,Children's,105
+P02173,Books,Children's,170
+P02174,Electronics,Smartphones,50224
+P02175,Electronics,Audio,9875
+P02176,Grocery,Beverages,1701
+P02177,Electronics,Laptops,64065
+P02178,Fashion,Footwear,7992
+P02179,Fashion,Footwear,3430
+P02180,Electronics,Audio,27036
+P02181,Home & Kitchen,Cookware,14076
+P02182,Fashion,Women's Clothing,5173
+P02183,Fashion,Women's Clothing,288
+P02184,Electronics,Smartphones,16494
+P02185,Home & Kitchen,Decor,7148
+P02186,Electronics,Cameras,63321
+P02187,Electronics,Cameras,24968
+P02188,Books,Children's,1569
+P02189,Electronics,Accessories,26252
+P02190,Electronics,Laptops,987
+P02191,Home & Kitchen,Furniture,17193
+P02192,Grocery,Beverages,702
+P02193,Grocery,Snacks,1457
+P02194,Fashion,Watches,5005
+P02195,Electronics,Cameras,2815
+P02196,Fashion,Women's Clothing,1570
+P02197,Grocery,Personal Care,681
+P02198,Fashion,Footwear,2836
+P02199,Grocery,Beverages,1355
+P02200,Electronics,Audio,73335
+P02201,Grocery,Personal Care,1601
+P02202,Grocery,Personal Care,1302
+P02203,Books,Non-Fiction,1496
+P02204,Books,Academic,1919
+P02205,Grocery,Snacks,1787
+P02206,Grocery,Snacks,1088
+P02207,Electronics,Cameras,27141
+P02208,Books,Children's,2374
+P02209,Grocery,Snacks,845
+P02210,Fashion,Men's Clothing,5992
+P02211,Home & Kitchen,Cookware,20902
+P02212,Home & Kitchen,Cookware,7589
+P02213,Grocery,Staples,1458
+P02214,Grocery,Staples,652
+P02215,Books,Children's,1654
+P02216,Home & Kitchen,Furniture,5325
+P02217,Fashion,Women's Clothing,5547
+P02218,Grocery,Staples,1605
+P02219,Electronics,Laptops,71098
+P02220,Books,Fiction,1125
+P02221,Grocery,Snacks,1940
+P02222,Books,Children's,913
+P02223,Fashion,Footwear,443
+P02224,Fashion,Men's Clothing,7872
+P02225,Home & Kitchen,Appliances,15719
+P02226,Electronics,Audio,67471
+P02227,Fashion,Men's Clothing,4654
+P02228,Home & Kitchen,Cookware,9831
+P02229,Fashion,Watches,4842
+P02230,Fashion,Men's Clothing,6944
+P02231,Fashion,Men's Clothing,6062
+P02232,Grocery,Beverages,1419
+P02233,Electronics,Cameras,25503
+P02234,Books,Academic,192
+P02235,Fashion,Men's Clothing,3428
+P02236,Home & Kitchen,Appliances,12502
+P02237,Grocery,Snacks,498
+P02238,Grocery,Staples,920
+P02239,Fashion,Men's Clothing,7616
+P02240,Electronics,Cameras,17683
+P02241,Home & Kitchen,Furniture,7663
+P02242,Books,Non-Fiction,425
+P02243,Fashion,Women's Clothing,6323
+P02244,Books,Academic,2356
+P02245,Grocery,Beverages,1829
+P02246,Electronics,Accessories,35780
+P02247,Electronics,Audio,2482
+P02248,Home & Kitchen,Cookware,12144
+P02249,Grocery,Beverages,1015
+P02250,Fashion,Watches,1684
+P02251,Home & Kitchen,Appliances,23102
+P02252,Grocery,Snacks,1473
+P02253,Home & Kitchen,Furniture,13162
+P02254,Books,Academic,2349
+P02255,Grocery,Staples,312
+P02256,Books,Fiction,2628
+P02257,Fashion,Men's Clothing,6613
+P02258,Home & Kitchen,Appliances,23460
+P02259,Books,Children's,2062
+P02260,Electronics,Audio,11051
+P02261,Home & Kitchen,Appliances,18156
+P02262,Fashion,Men's Clothing,3783
+P02263,Fashion,Men's Clothing,5767
+P02264,Home & Kitchen,Furniture,13130
+P02265,Electronics,Smartphones,827
+P02266,Electronics,Audio,74621
+P02267,Electronics,Audio,55121
+P02268,Grocery,Beverages,1201
+P02269,Books,Fiction,353
+P02270,Fashion,Men's Clothing,3842
+P02271,Home & Kitchen,Furniture,1297
+P02272,Electronics,Laptops,41886
+P02273,Home & Kitchen,Appliances,16526
+P02274,Home & Kitchen,Decor,7915
+P02275,Fashion,Men's Clothing,4705
+P02276,Home & Kitchen,Cookware,7907
+P02277,Electronics,Accessories,71425
+P02278,Home & Kitchen,Cookware,8124
+P02279,Electronics,Laptops,15807
+P02280,Home & Kitchen,Decor,7025
+P02281,Electronics,Smartphones,25872
+P02282,Electronics,Laptops,35569
+P02283,Fashion,Women's Clothing,1118
+P02284,Electronics,Audio,12371
+P02285,Grocery,Staples,569
+P02286,Fashion,Footwear,319
+P02287,Electronics,Laptops,50024
+P02288,Books,Non-Fiction,1591
+P02289,Fashion,Watches,1811
+P02290,Fashion,Footwear,2932
+P02291,Grocery,Personal Care,657
+P02292,Fashion,Women's Clothing,1304
+P02293,Electronics,Smartphones,56496
+P02294,Grocery,Beverages,588
+P02295,Electronics,Smartphones,19964
+P02296,Grocery,Staples,170
+P02297,Home & Kitchen,Appliances,15390
+P02298,Electronics,Laptops,27430
+P02299,Home & Kitchen,Cookware,11175
+P02300,Electronics,Accessories,10841
+P02301,Electronics,Cameras,37923
+P02302,Grocery,Personal Care,1361
+P02303,Electronics,Accessories,8921
+P02304,Electronics,Smartphones,4777
+P02305,Fashion,Footwear,3526
+P02306,Electronics,Audio,14729
+P02307,Fashion,Watches,4850
+P02308,Grocery,Snacks,1198
+P02309,Electronics,Accessories,66976
+P02310,Home & Kitchen,Appliances,17529
+P02311,Electronics,Audio,49497
+P02312,Electronics,Laptops,25339
+P02313,Books,Children's,2471
+P02314,Grocery,Staples,1434
+P02315,Fashion,Footwear,5433
+P02316,Fashion,Women's Clothing,4361
+P02317,Home & Kitchen,Cookware,24346
+P02318,Grocery,Staples,1519
+P02319,Fashion,Footwear,3832
+P02320,Home & Kitchen,Furniture,3425
+P02321,Home & Kitchen,Appliances,20349
+P02322,Books,Non-Fiction,2767
+P02323,Books,Children's,1458
+P02324,Electronics,Accessories,36719
+P02325,Fashion,Footwear,5539
+P02326,Electronics,Smartphones,56962
+P02327,Electronics,Smartphones,37499
+P02328,Home & Kitchen,Cookware,5908
+P02329,Books,Academic,749
+P02330,Books,Children's,2597
+P02331,Grocery,Beverages,1245
+P02332,Grocery,Beverages,1828
+P02333,Grocery,Staples,802
+P02334,Home & Kitchen,Furniture,17535
+P02335,Electronics,Smartphones,53382
+P02336,Fashion,Women's Clothing,6352
+P02337,Fashion,Watches,7083
+P02338,Books,Children's,1415
+P02339,Electronics,Cameras,2906
+P02340,Home & Kitchen,Appliances,11962
+P02341,Books,Fiction,1119
+P02342,Home & Kitchen,Cookware,11612
+P02343,Electronics,Smartphones,14079
+P02344,Grocery,Beverages,1543
+P02345,Electronics,Cameras,48553
+P02346,Grocery,Staples,281
+P02347,Grocery,Beverages,233
+P02348,Books,Children's,2471
+P02349,Electronics,Smartphones,63842
+P02350,Electronics,Accessories,26407
+P02351,Grocery,Personal Care,1309
+P02352,Fashion,Watches,6381
+P02353,Home & Kitchen,Cookware,13389
+P02354,Books,Non-Fiction,1262
+P02355,Fashion,Women's Clothing,3425
+P02356,Electronics,Audio,49860
+P02357,Grocery,Snacks,1109
+P02358,Fashion,Women's Clothing,7796
+P02359,Home & Kitchen,Decor,9688
+P02360,Grocery,Beverages,701
+P02361,Books,Academic,2460
+P02362,Home & Kitchen,Appliances,14836
+P02363,Books,Non-Fiction,2375
+P02364,Fashion,Men's Clothing,3596
+P02365,Books,Non-Fiction,2383
+P02366,Home & Kitchen,Appliances,13681
+P02367,Grocery,Beverages,495
+P02368,Books,Children's,2022
+P02369,Electronics,Accessories,6693
+P02370,Home & Kitchen,Appliances,23282
+P02371,Electronics,Smartphones,46148
+P02372,Fashion,Footwear,3996
+P02373,Grocery,Beverages,1197
+P02374,Electronics,Laptops,37301
+P02375,Electronics,Audio,44629
+P02376,Electronics,Cameras,65851
+P02377,Fashion,Women's Clothing,1574
+P02378,Electronics,Audio,76493
+P02379,Home & Kitchen,Cookware,1880
+P02380,Grocery,Snacks,244
+P02381,Fashion,Footwear,6550
+P02382,Electronics,Smartphones,61822
+P02383,Electronics,Audio,30623
+P02384,Electronics,Accessories,39796
+P02385,Electronics,Cameras,52983
+P02386,Grocery,Personal Care,208
+P02387,Fashion,Footwear,6573
+P02388,Fashion,Watches,7121
+P02389,Fashion,Footwear,7245
+P02390,Fashion,Watches,5162
+P02391,Fashion,Women's Clothing,201
+P02392,Electronics,Accessories,12165
+P02393,Grocery,Beverages,324
+P02394,Electronics,Cameras,42735
+P02395,Books,Non-Fiction,1231
+P02396,Grocery,Personal Care,1169
+P02397,Electronics,Accessories,16055
+P02398,Fashion,Women's Clothing,5516
+P02399,Books,Children's,1018
+P02400,Electronics,Accessories,45837
+P02401,Electronics,Accessories,73100
+P02402,Fashion,Watches,2575
+P02403,Fashion,Women's Clothing,7558
+P02404,Books,Academic,1361
+P02405,Grocery,Personal Care,1966
+P02406,Books,Academic,1098
+P02407,Fashion,Watches,896
+P02408,Electronics,Accessories,1145
+P02409,Fashion,Men's Clothing,7894
+P02410,Grocery,Snacks,826
+P02411,Grocery,Snacks,281
+P02412,Grocery,Staples,610
+P02413,Electronics,Audio,29853
+P02414,Electronics,Laptops,44136
+P02415,Fashion,Watches,614
+P02416,Home & Kitchen,Decor,17628
+P02417,Home & Kitchen,Cookware,20546
+P02418,Electronics,Audio,29060
+P02419,Electronics,Audio,68969
+P02420,Electronics,Laptops,69322
+P02421,Electronics,Accessories,19202
+P02422,Books,Non-Fiction,2136
+P02423,Home & Kitchen,Decor,9948
+P02424,Electronics,Laptops,25791
+P02425,Electronics,Audio,30932
+P02426,Grocery,Personal Care,782
+P02427,Fashion,Men's Clothing,4452
+P02428,Electronics,Audio,53168
+P02429,Fashion,Watches,3904
+P02430,Electronics,Cameras,15464
+P02431,Fashion,Watches,3200
+P02432,Electronics,Cameras,73996
+P02433,Electronics,Cameras,67277
+P02434,Fashion,Watches,1403
+P02435,Fashion,Men's Clothing,7980
+P02436,Electronics,Accessories,53770
+P02437,Grocery,Staples,295
+P02438,Grocery,Staples,171
+P02439,Grocery,Snacks,61
+P02440,Electronics,Accessories,57846
+P02441,Books,Non-Fiction,1511
+P02442,Electronics,Cameras,35220
+P02443,Home & Kitchen,Cookware,24757
+P02444,Electronics,Cameras,7231
+P02445,Fashion,Watches,5209
+P02446,Fashion,Footwear,3444
+P02447,Fashion,Watches,3757
+P02448,Fashion,Men's Clothing,6354
+P02449,Electronics,Smartphones,48552
+P02450,Grocery,Staples,869
+P02451,Electronics,Accessories,14794
+P02452,Books,Non-Fiction,1577
+P02453,Electronics,Cameras,44388
+P02454,Home & Kitchen,Furniture,11334
+P02455,Fashion,Watches,2971
+P02456,Electronics,Accessories,15270
+P02457,Electronics,Audio,48564
+P02458,Books,Children's,1776
+P02459,Home & Kitchen,Furniture,21193
+P02460,Electronics,Accessories,19322
+P02461,Electronics,Smartphones,40387
+P02462,Electronics,Audio,33162
+P02463,Grocery,Staples,1106
+P02464,Grocery,Beverages,753
+P02465,Fashion,Watches,7830
+P02466,Fashion,Men's Clothing,4632
+P02467,Electronics,Smartphones,56538
+P02468,Fashion,Women's Clothing,1083
+P02469,Electronics,Accessories,38782
+P02470,Electronics,Accessories,55395
+P02471,Home & Kitchen,Decor,3681
+P02472,Grocery,Personal Care,1471
+P02473,Home & Kitchen,Furniture,24592
+P02474,Electronics,Cameras,78702
+P02475,Home & Kitchen,Appliances,19505
+P02476,Books,Academic,1448
+P02477,Grocery,Personal Care,184
+P02478,Electronics,Smartphones,71248
+P02479,Electronics,Audio,7531
+P02480,Electronics,Audio,38060
+P02481,Electronics,Accessories,59464
+P02482,Books,Fiction,2885
+P02483,Home & Kitchen,Decor,2090
+P02484,Fashion,Men's Clothing,5143
+P02485,Home & Kitchen,Cookware,19983
+P02486,Home & Kitchen,Cookware,7916
+P02487,Fashion,Footwear,612
+P02488,Electronics,Smartphones,27812
+P02489,Electronics,Laptops,62393
+P02490,Fashion,Women's Clothing,3857
+P02491,Electronics,Cameras,41257
+P02492,Electronics,Laptops,37804
+P02493,Electronics,Cameras,58838
+P02494,Electronics,Laptops,33971
+P02495,Electronics,Accessories,76866
+P02496,Electronics,Cameras,63959
+P02497,Home & Kitchen,Appliances,7337
+P02498,Fashion,Watches,476
+P02499,Grocery,Snacks,1848
+P02500,Books,Children's,2273
+P02501,Electronics,Laptops,58294
+P02502,Books,Non-Fiction,1735
+P02503,Electronics,Audio,5383
+P02504,Fashion,Watches,3891
+P02505,Grocery,Staples,363
+P02506,Fashion,Women's Clothing,603
+P02507,Electronics,Audio,79234
+P02508,Grocery,Personal Care,1624
+P02509,Electronics,Audio,50133
+P02510,Books,Fiction,932
+P02511,Books,Non-Fiction,339
+P02512,Electronics,Laptops,40695
+P02513,Home & Kitchen,Decor,21308
+P02514,Books,Fiction,906
+P02515,Books,Fiction,484
+P02516,Grocery,Snacks,584
+P02517,Fashion,Footwear,6891
+P02518,Electronics,Accessories,1629
+P02519,Home & Kitchen,Furniture,2922
+P02520,Electronics,Audio,14382
+P02521,Grocery,Staples,1196
+P02522,Electronics,Accessories,12515
+P02523,Electronics,Audio,36009
+P02524,Electronics,Cameras,64723
+P02525,Electronics,Accessories,21270
+P02526,Fashion,Watches,5666
+P02527,Home & Kitchen,Appliances,12200
+P02528,Grocery,Staples,1605
+P02529,Grocery,Beverages,1728
+P02530,Grocery,Beverages,705
+P02531,Grocery,Personal Care,196
+P02532,Fashion,Women's Clothing,1332
+P02533,Home & Kitchen,Decor,23358
+P02534,Fashion,Men's Clothing,1402
+P02535,Home & Kitchen,Furniture,12474
+P02536,Books,Academic,2981
+P02537,Electronics,Smartphones,61744
+P02538,Fashion,Women's Clothing,2056
+P02539,Grocery,Beverages,897
+P02540,Fashion,Men's Clothing,5173
+P02541,Books,Non-Fiction,711
+P02542,Books,Academic,2230
+P02543,Electronics,Laptops,27934
+P02544,Fashion,Watches,5210
+P02545,Electronics,Audio,60561
+P02546,Fashion,Women's Clothing,1105
+P02547,Fashion,Watches,1507
+P02548,Fashion,Watches,3310
+P02549,Grocery,Snacks,624
+P02550,Fashion,Watches,6020
+P02551,Fashion,Women's Clothing,6069
+P02552,Electronics,Cameras,42835
+P02553,Grocery,Snacks,778
+P02554,Electronics,Audio,56596
+P02555,Grocery,Beverages,965
+P02556,Grocery,Snacks,316
+P02557,Electronics,Laptops,69687
+P02558,Electronics,Accessories,1443
+P02559,Home & Kitchen,Appliances,23191
+P02560,Home & Kitchen,Cookware,11303
+P02561,Books,Academic,2068
+P02562,Fashion,Men's Clothing,7702
+P02563,Fashion,Watches,5526
+P02564,Fashion,Women's Clothing,520
+P02565,Electronics,Laptops,73458
+P02566,Fashion,Watches,5172
+P02567,Electronics,Cameras,76517
+P02568,Home & Kitchen,Appliances,10880
+P02569,Fashion,Watches,7361
+P02570,Grocery,Personal Care,1721
+P02571,Electronics,Audio,27130
+P02572,Fashion,Watches,2283
+P02573,Electronics,Audio,8313
+P02574,Home & Kitchen,Furniture,16410
+P02575,Electronics,Smartphones,31597
+P02576,Home & Kitchen,Cookware,19363
+P02577,Fashion,Women's Clothing,6043
+P02578,Electronics,Accessories,58878
+P02579,Electronics,Smartphones,47304
+P02580,Fashion,Footwear,1720
+P02581,Electronics,Laptops,27324
+P02582,Fashion,Footwear,5584
+P02583,Electronics,Laptops,14803
+P02584,Electronics,Audio,44035
+P02585,Fashion,Watches,5448
+P02586,Fashion,Men's Clothing,6687
+P02587,Fashion,Men's Clothing,293
+P02588,Electronics,Accessories,8267
+P02589,Electronics,Cameras,8761
+P02590,Books,Academic,1393
+P02591,Grocery,Staples,462
+P02592,Home & Kitchen,Appliances,7190
+P02593,Electronics,Cameras,15850
+P02594,Electronics,Laptops,2384
+P02595,Home & Kitchen,Appliances,2435
+P02596,Fashion,Men's Clothing,7520
+P02597,Fashion,Women's Clothing,5322
+P02598,Electronics,Accessories,66919
+P02599,Electronics,Smartphones,76064
+P02600,Home & Kitchen,Appliances,16006
+P02601,Electronics,Accessories,56792
+P02602,Fashion,Footwear,1136
+P02603,Fashion,Men's Clothing,6880
+P02604,Electronics,Audio,10828
+P02605,Home & Kitchen,Cookware,16461
+P02606,Home & Kitchen,Furniture,22512
+P02607,Electronics,Laptops,45502
+P02608,Electronics,Cameras,77390
+P02609,Fashion,Footwear,7189
+P02610,Fashion,Watches,5626
+P02611,Electronics,Laptops,20640
+P02612,Fashion,Women's Clothing,3842
+P02613,Books,Non-Fiction,2815
+P02614,Fashion,Women's Clothing,5182
+P02615,Books,Fiction,2776
+P02616,Home & Kitchen,Decor,7018
+P02617,Fashion,Footwear,3530
+P02618,Grocery,Snacks,1810
+P02619,Electronics,Accessories,61706
+P02620,Electronics,Accessories,26211
+P02621,Electronics,Accessories,13376
+P02622,Electronics,Cameras,6383
+P02623,Grocery,Beverages,1561
+P02624,Home & Kitchen,Cookware,9663
+P02625,Books,Non-Fiction,1065
+P02626,Fashion,Watches,668
+P02627,Electronics,Smartphones,76471
+P02628,Electronics,Accessories,21541
+P02629,Books,Non-Fiction,1378
+P02630,Home & Kitchen,Furniture,12369
+P02631,Fashion,Women's Clothing,7443
+P02632,Electronics,Laptops,49019
+P02633,Fashion,Footwear,1592
+P02634,Home & Kitchen,Furniture,12378
+P02635,Grocery,Personal Care,313
+P02636,Books,Children's,2329
+P02637,Electronics,Laptops,17862
+P02638,Books,Academic,1966
+P02639,Grocery,Personal Care,1828
+P02640,Grocery,Personal Care,1439
+P02641,Fashion,Watches,1006
+P02642,Electronics,Smartphones,6297
+P02643,Home & Kitchen,Cookware,14348
+P02644,Electronics,Audio,20422
+P02645,Fashion,Footwear,3678
+P02646,Grocery,Beverages,1796
+P02647,Electronics,Audio,12334
+P02648,Electronics,Audio,51407
+P02649,Electronics,Accessories,74665
+P02650,Home & Kitchen,Cookware,16665
+P02651,Electronics,Smartphones,21682
+P02652,Fashion,Watches,5660
+P02653,Electronics,Accessories,72417
+P02654,Fashion,Men's Clothing,4682
+P02655,Electronics,Cameras,41473
+P02656,Fashion,Watches,7531
+P02657,Electronics,Laptops,39509
+P02658,Grocery,Personal Care,889
+P02659,Home & Kitchen,Furniture,21125
+P02660,Home & Kitchen,Appliances,19556
+P02661,Books,Academic,2378
+P02662,Electronics,Accessories,43440
+P02663,Fashion,Footwear,226
+P02664,Electronics,Accessories,76355
+P02665,Fashion,Women's Clothing,6580
+P02666,Electronics,Cameras,38824
+P02667,Electronics,Audio,45596
+P02668,Books,Academic,2812
+P02669,Home & Kitchen,Cookware,9069
+P02670,Fashion,Men's Clothing,5518
+P02671,Fashion,Men's Clothing,3325
+P02672,Fashion,Watches,5132
+P02673,Electronics,Smartphones,76726
+P02674,Books,Fiction,363
+P02675,Fashion,Women's Clothing,4370
+P02676,Electronics,Audio,76894
+P02677,Grocery,Personal Care,188
+P02678,Home & Kitchen,Cookware,11572
+P02679,Books,Children's,2323
+P02680,Grocery,Snacks,1306
+P02681,Electronics,Laptops,14541
+P02682,Fashion,Footwear,507
+P02683,Fashion,Women's Clothing,3196
+P02684,Electronics,Accessories,15685
+P02685,Fashion,Men's Clothing,5628
+P02686,Home & Kitchen,Decor,22427
+P02687,Fashion,Footwear,5119
+P02688,Home & Kitchen,Cookware,9078
+P02689,Home & Kitchen,Decor,2259
+P02690,Grocery,Snacks,1277
+P02691,Fashion,Men's Clothing,5936
+P02692,Electronics,Audio,11625
+P02693,Home & Kitchen,Decor,4948
+P02694,Grocery,Snacks,1448
+P02695,Electronics,Audio,47639
+P02696,Electronics,Smartphones,39394
+P02697,Grocery,Staples,154
+P02698,Fashion,Men's Clothing,4416
+P02699,Electronics,Laptops,24965
+P02700,Electronics,Audio,42948
+P02701,Fashion,Men's Clothing,6707
+P02702,Home & Kitchen,Furniture,11315
+P02703,Electronics,Cameras,79669
+P02704,Grocery,Snacks,103
+P02705,Electronics,Cameras,4956
+P02706,Home & Kitchen,Appliances,19726
+P02707,Books,Fiction,224
+P02708,Fashion,Men's Clothing,1122
+P02709,Grocery,Beverages,1620
+P02710,Electronics,Smartphones,53552
+P02711,Books,Children's,1429
+P02712,Fashion,Women's Clothing,5489
+P02713,Fashion,Watches,7019
+P02714,Electronics,Smartphones,12342
+P02715,Electronics,Laptops,46558
+P02716,Electronics,Audio,74023
+P02717,Fashion,Men's Clothing,488
+P02718,Electronics,Smartphones,11756
+P02719,Fashion,Men's Clothing,5300
+P02720,Fashion,Footwear,3876
+P02721,Fashion,Footwear,7361
+P02722,Fashion,Footwear,557
+P02723,Electronics,Laptops,56253
+P02724,Fashion,Watches,1218
+P02725,Books,Non-Fiction,600
+P02726,Electronics,Laptops,4472
+P02727,Electronics,Smartphones,24933
+P02728,Books,Fiction,2402
+P02729,Electronics,Cameras,36767
+P02730,Fashion,Women's Clothing,1531
+P02731,Fashion,Watches,4810
+P02732,Electronics,Accessories,65515
+P02733,Home & Kitchen,Furniture,2792
+P02734,Electronics,Laptops,40023
+P02735,Grocery,Personal Care,1604
+P02736,Electronics,Cameras,18036
+P02737,Grocery,Personal Care,1615
+P02738,Books,Non-Fiction,1336
+P02739,Fashion,Men's Clothing,6530
+P02740,Fashion,Men's Clothing,7861
+P02741,Fashion,Women's Clothing,5492
+P02742,Fashion,Men's Clothing,2729
+P02743,Electronics,Cameras,78080
+P02744,Home & Kitchen,Appliances,14463
+P02745,Fashion,Footwear,1271
+P02746,Grocery,Personal Care,1678
+P02747,Electronics,Accessories,63552
+P02748,Fashion,Women's Clothing,6161
+P02749,Home & Kitchen,Furniture,14888
+P02750,Fashion,Footwear,2817
+P02751,Fashion,Men's Clothing,1142
+P02752,Fashion,Women's Clothing,1302
+P02753,Home & Kitchen,Decor,10467
+P02754,Fashion,Men's Clothing,5631
+P02755,Home & Kitchen,Decor,13902
+P02756,Fashion,Women's Clothing,3622
+P02757,Books,Non-Fiction,2784
+P02758,Fashion,Watches,517
+P02759,Electronics,Accessories,8447
+P02760,Fashion,Men's Clothing,6809
+P02761,Grocery,Snacks,1237
+P02762,Home & Kitchen,Appliances,19475
+P02763,Electronics,Audio,1743
+P02764,Grocery,Staples,989
+P02765,Grocery,Snacks,43
+P02766,Fashion,Watches,1599
+P02767,Fashion,Men's Clothing,895
+P02768,Fashion,Men's Clothing,5284
+P02769,Fashion,Footwear,7118
+P02770,Grocery,Beverages,850
+P02771,Electronics,Laptops,64689
+P02772,Fashion,Watches,6226
+P02773,Fashion,Watches,5600
+P02774,Fashion,Footwear,1808
+P02775,Books,Non-Fiction,1955
+P02776,Home & Kitchen,Appliances,13149
+P02777,Home & Kitchen,Cookware,10389
+P02778,Fashion,Men's Clothing,7517
+P02779,Grocery,Staples,1233
+P02780,Fashion,Men's Clothing,493
+P02781,Grocery,Beverages,385
+P02782,Fashion,Women's Clothing,4099
+P02783,Electronics,Smartphones,76049
+P02784,Books,Fiction,1919
+P02785,Grocery,Personal Care,1572
+P02786,Grocery,Beverages,715
+P02787,Grocery,Personal Care,39
+P02788,Grocery,Personal Care,494
+P02789,Grocery,Personal Care,261
+P02790,Electronics,Smartphones,42651
+P02791,Electronics,Cameras,8107
+P02792,Fashion,Women's Clothing,3023
+P02793,Grocery,Beverages,1529
+P02794,Fashion,Men's Clothing,4410
+P02795,Grocery,Beverages,462
+P02796,Grocery,Staples,1548
+P02797,Home & Kitchen,Furniture,16534
+P02798,Fashion,Women's Clothing,2356
+P02799,Grocery,Beverages,412
+P02800,Home & Kitchen,Appliances,19946
+P02801,Electronics,Cameras,54977
+P02802,Grocery,Staples,1938
+P02803,Books,Academic,1476
+P02804,Grocery,Personal Care,377
+P02805,Electronics,Laptops,53776
+P02806,Fashion,Men's Clothing,536
+P02807,Electronics,Laptops,51766
+P02808,Books,Fiction,927
+P02809,Books,Children's,1361
+P02810,Fashion,Men's Clothing,2807
+P02811,Home & Kitchen,Appliances,20158
+P02812,Electronics,Cameras,60793
+P02813,Electronics,Cameras,3944
+P02814,Grocery,Staples,1489
+P02815,Books,Academic,2782
+P02816,Grocery,Snacks,376
+P02817,Books,Fiction,2378
+P02818,Fashion,Men's Clothing,3983
+P02819,Fashion,Women's Clothing,1105
+P02820,Books,Fiction,2696
+P02821,Electronics,Laptops,57852
+P02822,Fashion,Watches,4823
+P02823,Fashion,Footwear,2743
+P02824,Electronics,Cameras,16301
+P02825,Fashion,Footwear,5479
+P02826,Fashion,Women's Clothing,2740
+P02827,Fashion,Footwear,6276
+P02828,Grocery,Snacks,672
+P02829,Electronics,Accessories,8296
+P02830,Books,Fiction,2239
+P02831,Fashion,Men's Clothing,6985
+P02832,Home & Kitchen,Decor,9482
+P02833,Fashion,Watches,1921
+P02834,Fashion,Footwear,3874
+P02835,Books,Fiction,1505
+P02836,Electronics,Accessories,71294
+P02837,Electronics,Cameras,12023
+P02838,Grocery,Staples,1858
+P02839,Fashion,Watches,3749
+P02840,Grocery,Personal Care,793
+P02841,Fashion,Footwear,1264
+P02842,Electronics,Smartphones,57726
+P02843,Grocery,Personal Care,1275
+P02844,Electronics,Cameras,78057
+P02845,Fashion,Women's Clothing,1777
+P02846,Fashion,Footwear,1192
+P02847,Electronics,Laptops,55531
+P02848,Electronics,Accessories,5242
+P02849,Electronics,Smartphones,11352
+P02850,Home & Kitchen,Cookware,21314
+P02851,Fashion,Women's Clothing,3777
+P02852,Grocery,Staples,367
+P02853,Electronics,Smartphones,27814
+P02854,Electronics,Smartphones,70970
+P02855,Grocery,Snacks,1219
+P02856,Home & Kitchen,Cookware,19770
+P02857,Electronics,Audio,51221
+P02858,Books,Academic,1873
+P02859,Home & Kitchen,Appliances,4373
+P02860,Home & Kitchen,Furniture,24258
+P02861,Electronics,Laptops,68473
+P02862,Fashion,Men's Clothing,874
+P02863,Home & Kitchen,Appliances,21446
+P02864,Home & Kitchen,Furniture,12307
+P02865,Fashion,Footwear,7966
+P02866,Home & Kitchen,Furniture,14851
+P02867,Grocery,Personal Care,1679
+P02868,Books,Academic,910
+P02869,Fashion,Footwear,5894
+P02870,Grocery,Staples,1480
+P02871,Fashion,Footwear,2124
+P02872,Grocery,Staples,675
+P02873,Electronics,Cameras,46568
+P02874,Fashion,Men's Clothing,7156
+P02875,Books,Non-Fiction,1816
+P02876,Fashion,Women's Clothing,1362
+P02877,Grocery,Staples,1160
+P02878,Books,Children's,115
+P02879,Fashion,Men's Clothing,7845
+P02880,Grocery,Personal Care,109
+P02881,Home & Kitchen,Decor,11846
+P02882,Grocery,Beverages,1544
+P02883,Fashion,Footwear,462
+P02884,Home & Kitchen,Cookware,13348
+P02885,Grocery,Personal Care,974
+P02886,Electronics,Smartphones,63942
+P02887,Home & Kitchen,Decor,20559
+P02888,Fashion,Women's Clothing,3729
+P02889,Fashion,Footwear,2076
+P02890,Electronics,Cameras,44900
+P02891,Fashion,Footwear,297
+P02892,Electronics,Cameras,58677
+P02893,Grocery,Snacks,1901
+P02894,Fashion,Watches,1235
+P02895,Home & Kitchen,Decor,7500
+P02896,Grocery,Personal Care,1306
+P02897,Fashion,Women's Clothing,908
+P02898,Fashion,Women's Clothing,3942
+P02899,Grocery,Snacks,631
+P02900,Home & Kitchen,Cookware,17627
+P02901,Electronics,Audio,68705
+P02902,Books,Fiction,2267
+P02903,Electronics,Laptops,2441
+P02904,Fashion,Footwear,3748
+P02905,Fashion,Men's Clothing,6220
+P02906,Grocery,Beverages,1752
+P02907,Fashion,Men's Clothing,3362
+P02908,Electronics,Audio,63294
+P02909,Electronics,Accessories,29948
+P02910,Books,Fiction,1446
+P02911,Home & Kitchen,Furniture,15890
+P02912,Home & Kitchen,Furniture,21531
+P02913,Fashion,Watches,751
+P02914,Books,Children's,2691
+P02915,Electronics,Smartphones,26966
+P02916,Electronics,Laptops,3101
+P02917,Electronics,Accessories,34359
+P02918,Grocery,Staples,561
+P02919,Electronics,Smartphones,75715
+P02920,Fashion,Women's Clothing,4431
+P02921,Electronics,Cameras,63661
+P02922,Home & Kitchen,Appliances,19724
+P02923,Books,Academic,335
+P02924,Home & Kitchen,Appliances,22039
+P02925,Electronics,Smartphones,58993
+P02926,Fashion,Men's Clothing,628
+P02927,Grocery,Snacks,1892
+P02928,Electronics,Audio,54135
+P02929,Home & Kitchen,Cookware,22216
+P02930,Home & Kitchen,Cookware,2908
+P02931,Electronics,Audio,29564
+P02932,Fashion,Women's Clothing,5029
+P02933,Fashion,Women's Clothing,3051
+P02934,Books,Academic,608
+P02935,Fashion,Footwear,4559
+P02936,Grocery,Beverages,162
+P02937,Electronics,Audio,56892
+P02938,Home & Kitchen,Decor,5237
+P02939,Electronics,Accessories,78510
+P02940,Grocery,Personal Care,500
+P02941,Home & Kitchen,Decor,2972
+P02942,Fashion,Women's Clothing,3932
+P02943,Electronics,Smartphones,75162
+P02944,Books,Non-Fiction,1782
+P02945,Fashion,Women's Clothing,7681
+P02946,Fashion,Men's Clothing,1836
+P02947,Home & Kitchen,Furniture,18664
+P02948,Grocery,Staples,474
+P02949,Fashion,Women's Clothing,2951
+P02950,Grocery,Personal Care,557
+P02951,Electronics,Audio,54578
+P02952,Fashion,Footwear,2362
+P02953,Fashion,Watches,694
+P02954,Home & Kitchen,Cookware,8729
+P02955,Home & Kitchen,Decor,12233
+P02956,Home & Kitchen,Furniture,13238
+P02957,Home & Kitchen,Appliances,3199
+P02958,Books,Academic,2158
+P02959,Grocery,Personal Care,1366
+P02960,Grocery,Beverages,1080
+P02961,Electronics,Smartphones,23735
+P02962,Fashion,Men's Clothing,5043
+P02963,Fashion,Women's Clothing,6439
+P02964,Home & Kitchen,Decor,23642
+P02965,Electronics,Cameras,64799
+P02966,Home & Kitchen,Cookware,23531
+P02967,Electronics,Laptops,5717
+P02968,Fashion,Footwear,7157
+P02969,Books,Non-Fiction,1428
+P02970,Fashion,Men's Clothing,825
+P02971,Grocery,Snacks,1799
+P02972,Fashion,Footwear,2449
+P02973,Fashion,Watches,7662
+P02974,Home & Kitchen,Cookware,2868
+P02975,Home & Kitchen,Decor,7007
+P02976,Home & Kitchen,Decor,17472
+P02977,Electronics,Laptops,39958
+P02978,Home & Kitchen,Cookware,21894
+P02979,Electronics,Audio,41895
+P02980,Electronics,Audio,50368
+P02981,Books,Non-Fiction,950
+P02982,Electronics,Smartphones,77581
+P02983,Electronics,Audio,43544
+P02984,Fashion,Men's Clothing,1230
+P02985,Home & Kitchen,Furniture,8766
+P02986,Fashion,Men's Clothing,3662
+P02987,Home & Kitchen,Cookware,16170
+P02988,Electronics,Smartphones,23676
+P02989,Grocery,Snacks,154
+P02990,Books,Non-Fiction,2628
+P02991,Electronics,Laptops,18970
+P02992,Books,Children's,2848
+P02993,Electronics,Accessories,51751
+P02994,Grocery,Staples,841
+P02995,Electronics,Cameras,27752
+P02996,Grocery,Beverages,1303
+P02997,Grocery,Staples,673
+P02998,Home & Kitchen,Cookware,14895
+P02999,Fashion,Men's Clothing,5636
+P03000,Books,Non-Fiction,2542
